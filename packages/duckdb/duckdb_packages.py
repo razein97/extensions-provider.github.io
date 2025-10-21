@@ -11,6 +11,12 @@ def fetch_duckdb_packages():
     # All extensions are hosted on github hence we need to visit the repo in order to get the extension details
     duckdb_git_tree = "https://api.github.com/repos/duckdb/community-extensions/git/trees/86761d118e803aeafd02ad4aac735d95fa81d301";
     client = GitHubAPIClient();
+      # Check initial rate limit
+    client.check_rate_limit()
+    # Check if token exists
+    if not client.token:
+        print("ERROR: No token found!")
+        exit(1)
     try:
         tree_json:Dict[Any, Any] = client.get(duckdb_git_tree);
 
