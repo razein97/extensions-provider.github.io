@@ -43,18 +43,19 @@ def fetch_duckdb_packages():
                             if item is not None:
                                 ready_item:Dict[Any, Any] = {};
                                 count = len(parsed_data);
-                                repo_name:str = item['repo'];
+                                repo_name:str = item.get('repo', '');
                                 repository = f"https://github.com/{repo_name}"
+
                                 ready_item.update({
                                     'id':count, 
                                     'fullname': repo_name,
-                                    'name': ext['name'],
-                                    'version': ext['version'],
+                                    'name': ext.get('name', ''),
+                                    'version': ext.get('version', ''),
                                     'homepage': "",
                                     'repository': repository,
-                                    'authors': ext["maintainers"],
-                                    'license': ext['license'],
-                                    "description": ext['description'],
+                                    'authors': ext.get("maintainers", ''),
+                                    'license': ext.get('license') or ext.get('licence', ''),
+                                    "description": ext.get('description', ''),
                                     'keywords': '',
                                     'symbols': [],
                                     'assets':{}
