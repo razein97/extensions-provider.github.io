@@ -1,0 +1,1875 @@
+[
+  {
+    "id": 0,
+    "fullname": {
+      "github": "query-farm/a5",
+      "ref": "75b4022f805815d624a0027376d8787b08c7de16"
+    },
+    "name": "a5",
+    "version": 2025101601,
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/a5', 'ref': '75b4022f805815d624a0027376d8787b08c7de16'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "Apache-2.0",
+    "description": "Hierarchical pentagonial indexing for geospatial data that is equal-area and millimeter accurate.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 1,
+    "fullname": {
+      "github": "query-farm/airport",
+      "ref": "8ba55ee4eb30c4c59e4daca4a4b850c47d302dfa"
+    },
+    "name": "airport",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/airport', 'ref': '8ba55ee4eb30c4c59e4daca4a4b850c47d302dfa'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "The Airport extension brings Arrow Flight support to DuckDB, enabling DuckDB to query, modify, and store data from Arrow Flight servers.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 2,
+    "fullname": {
+      "github": "duckdb/duckdb-extension-alias",
+      "ref": "7e7a9c0dd16ad46b3c2da4e96dedbfbce4aa67ae",
+      "canonical_name": "nanoarrow"
+    },
+    "name": "arrow",
+    "version": "1.2.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'duckdb/duckdb-extension-alias', 'ref': '7e7a9c0dd16ad46b3c2da4e96dedbfbce4aa67ae', 'canonical_name': 'nanoarrow'}",
+    "authors": [
+      "pdet"
+    ],
+    "license": "MIT",
+    "description": "This extension is an alias to the nanoarrow extension. Allows the consumption and production of the Apache Arrow interprocess communication (IPC) format, both from files and directly from stream buffers.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 3,
+    "fullname": {
+      "github": "hafenkran/duckdb-bigquery",
+      "ref": "cf415f3e7ce6cce58140b40fe5285658d98b859e"
+    },
+    "name": "bigquery",
+    "version": "0.5.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'hafenkran/duckdb-bigquery', 'ref': 'cf415f3e7ce6cce58140b40fe5285658d98b859e'}",
+    "authors": [
+      "hafenkran"
+    ],
+    "license": "MIT",
+    "description": "Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 4,
+    "fullname": {
+      "github": "query-farm/bitfilters",
+      "ref": "feb75dd1f5fe7837422a03c6cddde70988b7cad1"
+    },
+    "name": "bitfilters",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/bitfilters', 'ref': 'feb75dd1f5fe7837422a03c6cddde70988b7cad1'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "Provides high-performance, space-efficient probabilistic data structures—including quotient, XOR, and binary fuse filters—for fast approximate set membership testing with no false negatives and configurable false positive rates.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 5,
+    "fullname": {
+      "github": "luohaha/BlockDuck",
+      "ref": "60e9c73da0376c2be2e5f82dfb1c756516373344"
+    },
+    "name": "blockduck",
+    "version": "0.8.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'luohaha/BlockDuck', 'ref': '60e9c73da0376c2be2e5f82dfb1c756516373344'}",
+    "authors": [
+      "luohaha"
+    ],
+    "license": "MIT",
+    "description": "Live SQL Queries on Blockchain",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 6,
+    "fullname": {
+      "github": "dforsber/boilstream-extension",
+      "ref": "1e7beb67b58bc790f22c8ea168f212c0893a4776"
+    },
+    "name": "boilstream",
+    "version": "0.3.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'dforsber/boilstream-extension', 'ref': '1e7beb67b58bc790f22c8ea168f212c0893a4776'}",
+    "authors": [
+      "dforsber"
+    ],
+    "license": "MIT",
+    "description": "Mounts boilstream server as a secure Remote Secrets Storage",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 7,
+    "fullname": {
+      "github": "dentiny/duck-read-cache-fs",
+      "ref": "615f4f597a2285b87b5d7c1420a750c89d9a4c42"
+    },
+    "name": "cache_httpfs",
+    "version": "0.9.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'dentiny/duck-read-cache-fs', 'ref': '615f4f597a2285b87b5d7c1420a750c89d9a4c42'}",
+    "authors": [
+      "dentiny",
+      "DouEnergy"
+    ],
+    "license": "MIT",
+    "description": "Read cached filesystem for httpfs",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 8,
+    "fullname": {
+      "github": "duckdb/extension-template-c",
+      "ref": "7f71365c5ce61b2b346717af07c9d448cfc9d3c3"
+    },
+    "name": "capi_quack",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'duckdb/extension-template-c', 'ref': '7f71365c5ce61b2b346717af07c9d448cfc9d3c3'}",
+    "authors": [
+      "samansmink"
+    ],
+    "license": "MIT",
+    "description": "Provides a hello world example demo from the C/C++ C API template",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 9,
+    "fullname": {
+      "github": "dioptre/duckdb-cassandra",
+      "ref": "a5d974c422c75f217e6f495c0dc159993a30c0f4",
+      "canonical_name": "cassandra"
+    },
+    "name": "cassandra",
+    "version": "1.0.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'dioptre/duckdb-cassandra', 'ref': 'a5d974c422c75f217e6f495c0dc159993a30c0f4', 'canonical_name': 'cassandra'}",
+    "authors": [
+      "dioptre"
+    ],
+    "license": "MIT",
+    "description": "Connect to Apache Cassandra, ScyllaDB, and DataStax Astra databases directly from DuckDB. Query Cassandra tables using SQL with support for all major Cassandra data types, SSL/TLS connections, and cloud deployments.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 10,
+    "fullname": {
+      "github": "taniabogatsch/duckdb-chaos",
+      "ref": "e112242b794466d2a4a577af0a92fce836708a71"
+    },
+    "name": "chaos",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'taniabogatsch/duckdb-chaos', 'ref': 'e112242b794466d2a4a577af0a92fce836708a71'}",
+    "authors": [
+      "taniabogatsch"
+    ],
+    "license": "MIT",
+    "description": "Creates chaos! ⋆✴︎˚｡⋆ Chaos allows you to throw any type of DuckDB exception, or to raise a SIGSEGV, SIGABRT, or SIGBUS signal.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 11,
+    "fullname": {
+      "github": "quackscience/duckdb-extension-clickhouse-sql",
+      "ref": "f056022f4a9d20e280059d66458d907f4a080cdd"
+    },
+    "name": "chsql",
+    "version": "1.0.132",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-extension-clickhouse-sql', 'ref': 'f056022f4a9d20e280059d66458d907f4a080cdd'}",
+    "authors": [
+      "lmangani",
+      "akvlad"
+    ],
+    "license": "MIT",
+    "description": "ClickHouse SQL Macros for DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 12,
+    "fullname": {
+      "github": "quackscience/duckdb-extension-clickhouse-native",
+      "ref": "2674d67f6715b4fb7d49f9a7f12c382a5f013f33"
+    },
+    "name": "chsql_native",
+    "version": "0.1.3",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-extension-clickhouse-native', 'ref': '2674d67f6715b4fb7d49f9a7f12c382a5f013f33'}",
+    "authors": [
+      "lmangani",
+      "adubovikov"
+    ],
+    "license": "MIT",
+    "description": "ClickHouse Native Client & File Reader for chsql",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 13,
+    "fullname": {
+      "github": "quackscience/duckdb-extension-cronjob",
+      "ref": "719904edf23617da02dfb599643452abf51db30e"
+    },
+    "name": "cronjob",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-extension-cronjob', 'ref': '719904edf23617da02dfb599643452abf51db30e'}",
+    "authors": [
+      "lmangani"
+    ],
+    "license": "MIT",
+    "description": "DuckDB HTTP Cronjob Extension",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 14,
+    "fullname": {
+      "github": "query-farm/crypto",
+      "ref": "81f20f42d62ac87e879de59e4ad086a3aadc74ae"
+    },
+    "name": "crypto",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/crypto', 'ref': '81f20f42d62ac87e879de59e4ad086a3aadc74ae'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "Cryptographic hash functions and HMAC",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 15,
+    "fullname": {
+      "github": "dentiny/duckdb-curl-filesystem",
+      "ref": "8dead9f6b45250becd2bb4c7b94428a9a6af9e45"
+    },
+    "name": "curl_httpfs",
+    "version": "0.2.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'dentiny/duckdb-curl-filesystem', 'ref': '8dead9f6b45250becd2bb4c7b94428a9a6af9e45'}",
+    "authors": [
+      "dentiny"
+    ],
+    "license": "MIT",
+    "description": "httpfs with connection pool, HTTP/2 and async IO.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 16,
+    "fullname": {
+      "github": "cwiq-os/cwiqduck",
+      "ref": "81bb6a0c509ef91919560cbcddaf8e489e0ac8eb"
+    },
+    "name": "cwiqduck",
+    "version": "0.0.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'cwiq-os/cwiqduck', 'ref': '81bb6a0c509ef91919560cbcddaf8e489e0ac8eb'}",
+    "authors": [
+      "ph-maxinechang"
+    ],
+    "license": "MIT",
+    "description": "DuckDB filesystem extension for CWIQ FS",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 17,
+    "fullname": {
+      "github": "gropaul/dash",
+      "ref": "546d6cc9c412837eb585c9e4d6ce23f2b55e4f19"
+    },
+    "name": "dash",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'gropaul/dash', 'ref': '546d6cc9c412837eb585c9e4d6ce23f2b55e4f19'}",
+    "authors": [
+      "Gropaul"
+    ],
+    "license": "MIT",
+    "description": "GUI to create interactive plots and dashboards *within* DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 18,
+    "fullname": {
+      "github": "query-farm/datasketches",
+      "ref": "4482941cf751a9c4fd1086b798b68fa695497b30"
+    },
+    "name": "datasketches",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/datasketches', 'ref': '4482941cf751a9c4fd1086b798b68fa695497b30'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "By utilizing the Apache DataSketches library this extension can efficiently compute approximate distinct item counts and estimations of quantiles, while allowing the sketches to be serialized.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 19,
+    "fullname": {
+      "github": "tobilg/duckdb-dns",
+      "ref": "b95577b43190fb67d0a723a0acf25cac5b769ff6"
+    },
+    "name": "dns",
+    "version": "0.4.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'tobilg/duckdb-dns', 'ref': 'b95577b43190fb67d0a723a0acf25cac5b769ff6'}",
+    "authors": [
+      "tobilg"
+    ],
+    "license": "MIT",
+    "description": "The DNS Extension enables DNS lookups and reverse DNS lookups from within DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 20,
+    "fullname": {
+      "github": "teaguesterling/duck_tails",
+      "ref": "main"
+    },
+    "name": "duck_tails",
+    "version": "1.0.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'teaguesterling/duck_tails', 'ref': 'main'}",
+    "authors": [
+      "teaguesterling"
+    ],
+    "license": "MIT",
+    "description": "Smart Development Intelligence for DuckDB - Git-aware data analysis capabilities that allow querying git history, accessing files at any revision, and performing version-aware data analysis with SQL.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 21,
+    "fullname": {
+      "github": "teaguesterling/duckdb_mcp",
+      "ref": "440ef9e852a806def5783c7ca4f7fdb3d1021881"
+    },
+    "name": "duckdb_mcp",
+    "version": "1.1.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'teaguesterling/duckdb_mcp', 'ref': '440ef9e852a806def5783c7ca4f7fdb3d1021881'}",
+    "authors": [
+      "teaguesterling"
+    ],
+    "license": "MIT",
+    "description": "Model Context Protocol (MCP) extension for DuckDB that enables seamless integration between SQL databases and MCP servers. Provides both client capabilities for accessing remote MCP resources via SQL and server capabilities for exposing database content as MCP resources.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 22,
+    "fullname": {
+      "github": "cwida/duckpgq-extension",
+      "ref": "7705c5c016cb343d523fa112c40c732eb17c0537"
+    },
+    "name": "duckpgq",
+    "version": "0.2.6",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'cwida/duckpgq-extension', 'ref': '7705c5c016cb343d523fa112c40c732eb17c0537'}",
+    "authors": [
+      "Dtenwolde"
+    ],
+    "license": "MIT",
+    "description": "Extension that adds support for SQL/PGQ and graph algorithms",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 23,
+    "fullname": {
+      "github": "ahuarte47/duckdb-eeagrid",
+      "ref": "1b4f24e483f1b0be9cb2f774450b14805caddee9"
+    },
+    "name": "eeagrid",
+    "version": "1.4.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'ahuarte47/duckdb-eeagrid', 'ref': '1b4f24e483f1b0be9cb2f774450b14805caddee9'}",
+    "authors": [
+      "ahuarte47"
+    ],
+    "license": "MIT",
+    "description": "Extension that adds support for working with the EEA Reference Grid System.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 24,
+    "fullname": {
+      "github": "onnimonni/duckdb-encoding",
+      "ref": "8d211ed71b3a212468ff46e83dbec847e56f2467"
+    },
+    "name": "encoding",
+    "version": "0.1.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'onnimonni/duckdb-encoding', 'ref': '8d211ed71b3a212468ff46e83dbec847e56f2467'}",
+    "authors": [
+      "onnimonni"
+    ],
+    "license": "MIT",
+    "description": "The Encoding Extension enables text encoding detection and UTF-8 conversion from within DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 25,
+    "fullname": {
+      "github": "query-farm/evalexpr_rhai",
+      "ref": "a8fb6c6970006c3e9b657374f72fd82d862abbdd"
+    },
+    "name": "evalexpr_rhai",
+    "version": "2025101401",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/evalexpr_rhai', 'ref': 'a8fb6c6970006c3e9b657374f72fd82d862abbdd'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "Apache-2.0",
+    "description": "Evaluate the Rhai scripting language in DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 26,
+    "fullname": {
+      "github": "duckdb-faiss-ext/duckdb-faiss-ext",
+      "ref": "9ccd224c66ae16f55693d633040e5c756e414cbf"
+    },
+    "name": "faiss",
+    "version": "0.12.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'duckdb-faiss-ext/duckdb-faiss-ext', 'ref': '9ccd224c66ae16f55693d633040e5c756e414cbf'}",
+    "authors": [
+      "JAicewizard",
+      "arjenpdevries"
+    ],
+    "license": "MIT",
+    "description": "Provides access to faiss indices from DuckDB.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 27,
+    "fullname": {
+      "github": "yutannihilation/duckdb-ext-file-dialog",
+      "ref": "351d27b1cbfdaf1d4277a6090b895e66c601b70c"
+    },
+    "name": "file_dialog",
+    "version": "0.0.3",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'yutannihilation/duckdb-ext-file-dialog', 'ref': '351d27b1cbfdaf1d4277a6090b895e66c601b70c'}",
+    "authors": [
+      "yutannihilation"
+    ],
+    "license": "MIT",
+    "description": "Choose a file via native file dialog",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 28,
+    "fullname": {
+      "github": "lnkuiper/fivetran",
+      "ref": "8e0abc47c8960d30e54c5a017186c59e30eed19e"
+    },
+    "name": "fivetran",
+    "version": 2025101500,
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'lnkuiper/fivetran', 'ref': '8e0abc47c8960d30e54c5a017186c59e30eed19e'}",
+    "authors": [
+      "lnkuiper"
+    ],
+    "license": "Apache-2.0",
+    "description": "Fivetran community extension.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 29,
+    "fullname": {
+      "github": "dais-polymtl/flock",
+      "ref": "7f1c36abe481b97c9e2c6e7303f36005c8d242fa"
+    },
+    "name": "flock",
+    "version": "0.5.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'dais-polymtl/flock', 'ref': '7f1c36abe481b97c9e2c6e7303f36005c8d242fa'}",
+    "authors": [
+      "anasdorbani",
+      "queryproc"
+    ],
+    "license": "MIT",
+    "description": "LLM & RAG extension to combine analytics and semantic analysis",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 30,
+    "fullname": {
+      "github": "query-farm/fuzzycomplete",
+      "ref": "0289e3e5c2e454fad1ef9ca51379460563d2b6f0"
+    },
+    "name": "fuzzycomplete",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/fuzzycomplete', 'ref': '0289e3e5c2e454fad1ef9ca51379460563d2b6f0'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "Apache-2.0",
+    "description": "Fuzzy matching based autocompletion",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 31,
+    "fullname": {
+      "github": "northpolesec/duckdb-gcs",
+      "ref": "b0b3bd3e896417308800a04116cf60a129de7e0c"
+    },
+    "name": "gcs",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'northpolesec/duckdb-gcs', 'ref': 'b0b3bd3e896417308800a04116cf60a129de7e0c'}",
+    "authors": [
+      "northpolesec"
+    ],
+    "license": "MIT",
+    "description": "DuckDB GCS Extension",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 32,
+    "fullname": {
+      "github": "paleolimbot/duckdb-geography",
+      "ref": "1f66ba5a3a0e72f53c7237987ef743605189fa69"
+    },
+    "name": "geography",
+    "version": "0.1.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'paleolimbot/duckdb-geography', 'ref': '1f66ba5a3a0e72f53c7237987ef743605189fa69'}",
+    "authors": [
+      "paleolimbot"
+    ],
+    "license": "MIT",
+    "description": "Global spatial data processing on the sphere",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 33,
+    "fullname": {
+      "github": "babaknaimi/duckdb-geotiff",
+      "ref": "3fa51dbe85cb890dea8416c07c90f30147b9d6a4"
+    },
+    "name": "geotiff",
+    "version": "0.1.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'babaknaimi/duckdb-geotiff', 'ref': '3fa51dbe85cb890dea8416c07c90f30147b9d6a4'}",
+    "authors": [
+      "babaknaimi"
+    ],
+    "license": "MIT",
+    "description": "Read GeoTIFF rasters as (cell_id, value) via GDAL",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 34,
+    "fullname": {
+      "github": "evidence-dev/duckdb_gsheets",
+      "ref": "f44cfdd97c83489a5ffea15712fc24d0e257ff44"
+    },
+    "name": "gsheets",
+    "version": "0.0.7",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'evidence-dev/duckdb_gsheets', 'ref': 'f44cfdd97c83489a5ffea15712fc24d0e257ff44'}",
+    "authors": [
+      "archiewood",
+      "mharrisb1"
+    ],
+    "license": "MIT",
+    "description": "Read and write Google Sheets using SQL",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 35,
+    "fullname": {
+      "github": "isaacbrodsky/h3-duckdb",
+      "ref": "c5b34a028f0a8863c3668f3aa0686f3d010e1de6"
+    },
+    "name": "h3",
+    "version": "1.4.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'isaacbrodsky/h3-duckdb', 'ref': 'c5b34a028f0a8863c3668f3aa0686f3d010e1de6'}",
+    "authors": [
+      "isaacbrodsky"
+    ],
+    "license": "Apache-2.0",
+    "description": "Hierarchical hexagonal indexing for geospatial data",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 36,
+    "fullname": {
+      "github": "query-farm/hashfuncs",
+      "ref": "d07e4e8878b5bb27624be71f5012c64b507b5b60"
+    },
+    "name": "hashfuncs",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/hashfuncs', 'ref': 'd07e4e8878b5bb27624be71f5012c64b507b5b60'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "Apache-2.0",
+    "description": "Non-cryptographic hash functions, xxHash, rapidhash and Murmurhash3",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 37,
+    "fullname": {
+      "github": "Berrysoft/duckdb-hdf5",
+      "ref": "5bb76c775d132f56869bd65b2ec267b951d2ff69"
+    },
+    "name": "hdf5",
+    "version": "0.1.5",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Berrysoft/duckdb-hdf5', 'ref': '5bb76c775d132f56869bd65b2ec267b951d2ff69'}",
+    "authors": [
+      "Berrysoft"
+    ],
+    "license": "MIT",
+    "description": "Read HDF5 files from DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 38,
+    "fullname": {
+      "github": "fhk/highs-duckdb",
+      "ref": "0c343b5d3b54fb63231b445617eaff847dbdc719"
+    },
+    "name": "highs",
+    "version": "1.7.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'fhk/highs-duckdb', 'ref': '0c343b5d3b54fb63231b445617eaff847dbdc719'}",
+    "authors": [
+      "fhk"
+    ],
+    "license": "MIT",
+    "description": "HiGHS - High Performance Optimization Software",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 39,
+    "fullname": {
+      "github": "gropaul/hostFS",
+      "ref": "29017b23edd9bed0cbd9847c9ba76b84427df1f7"
+    },
+    "name": "hostfs",
+    "version": "0.0.3",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'gropaul/hostFS', 'ref': '29017b23edd9bed0cbd9847c9ba76b84427df1f7'}",
+    "authors": [
+      "Gropaul"
+    ],
+    "license": "MIT",
+    "description": "Navigate and explore the filesystem using SQL",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 40,
+    "fullname": {
+      "github": "query-farm/httpclient",
+      "ref": "6717af408e1efc2fbf1f02f46cee0eef08b57dc6"
+    },
+    "name": "http_client",
+    "version": 2025100901,
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/httpclient', 'ref': '6717af408e1efc2fbf1f02f46cee0eef08b57dc6'}",
+    "authors": [
+      "lmangani",
+      "ahuarte47",
+      "Okabintaro",
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "DuckDB HTTP Client Extension",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 41,
+    "fullname": {
+      "github": "Query-farm/httpserver",
+      "ref": "ffd891900fecb97dfb36a1fc23fafcbfef0ebca5"
+    },
+    "name": "httpserver",
+    "version": "0.1.9",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Query-farm/httpserver', 'ref': 'ffd891900fecb97dfb36a1fc23fafcbfef0ebca5'}",
+    "authors": [
+      "lmangani",
+      "akvlad",
+      "niclashaderer",
+      "gropaul",
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "DuckDB HTTP API Server Extension",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 42,
+    "fullname": {
+      "github": "CogitatorTech/infera",
+      "ref": "f68854b7253acf86c9909c76ed8970e29b6aeb5e"
+    },
+    "name": "infera",
+    "version": "0.2.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'CogitatorTech/infera', 'ref': 'f68854b7253acf86c9909c76ed8970e29b6aeb5e'}",
+    "authors": [
+      "habedi"
+    ],
+    "license": "MIT OR Apache-2.0",
+    "description": "A DuckDB extension for in-database inference",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 43,
+    "fullname": {
+      "github": "GalvinGao/duckdb_jwt",
+      "ref": "9511967148dd532b45e4088182501187559f1829"
+    },
+    "name": "jwt",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'GalvinGao/duckdb_jwt', 'ref': '9511967148dd532b45e4088182501187559f1829'}",
+    "authors": [
+      "GalvinGao"
+    ],
+    "license": "MIT",
+    "description": "Decode and work with JWT (JSON Web Token) in SQL queries",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 44,
+    "fullname": {
+      "github": "query-farm/lindel",
+      "ref": "78da538fa9f50f3514d18af9066c54000964e640"
+    },
+    "name": "lindel",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/lindel', 'ref': '78da538fa9f50f3514d18af9066c54000964e640'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "Apache-2.0",
+    "description": "Linearization/Delinearization, Z-Order, Hilbert and Morton Curves",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 45,
+    "fullname": {
+      "github": "isaacbrodsky/duckdb-lua",
+      "ref": "7096b98e48b8ae1324e1473825a075dd410d6d56"
+    },
+    "name": "lua",
+    "version": "1.4.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'isaacbrodsky/duckdb-lua', 'ref': '7096b98e48b8ae1324e1473825a075dd410d6d56'}",
+    "authors": [
+      "isaacbrodsky"
+    ],
+    "license": "MIT",
+    "description": "Evaluate Lua scripts within queries",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 46,
+    "fullname": {
+      "github": "carlopi/duckdb_magic",
+      "ref": "6a214b48b6dc760e398c73131e00ee62f2c5f1bc"
+    },
+    "name": "magic",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'carlopi/duckdb_magic', 'ref': '6a214b48b6dc760e398c73131e00ee62f2c5f1bc'}",
+    "authors": [
+      "carlopi"
+    ],
+    "license": "MIT",
+    "description": "libmagic/file utilities ported to DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 47,
+    "fullname": {
+      "github": "query-farm/marisa",
+      "ref": "62a09ef28fab1d81c18bafe143eaed935b4abf08"
+    },
+    "name": "marisa",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/marisa', 'ref': '62a09ef28fab1d81c18bafe143eaed935b4abf08'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "Adds MARISA (Matching Algorithm with Recursively Implemented StorAge) trie functionality for DuckDB. MARISA is a static and space-efficient trie data structure that enables fast string lookups, prefix searches, and predictive text operations.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 48,
+    "fullname": {
+      "github": "teaguesterling/duckdb_markdown",
+      "ref": "ece14ecb6301eaa3f19d247735ac56c1182282fe"
+    },
+    "name": "markdown",
+    "version": "1.0.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'teaguesterling/duckdb_markdown', 'ref': 'ece14ecb6301eaa3f19d247735ac56c1182282fe'}",
+    "authors": [
+      "teaguesterling"
+    ],
+    "license": "MIT",
+    "description": "Read and analyze Markdown files with comprehensive content extraction and document processing capabilities",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 49,
+    "fullname": {
+      "github": "nkwork9999/miniplot",
+      "ref": "6197f14cf803e4234b69ddc279ee64eec79bea73"
+    },
+    "name": "miniplot",
+    "version": "0.0.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'nkwork9999/miniplot', 'ref': '6197f14cf803e4234b69ddc279ee64eec79bea73'}",
+    "authors": [
+      "nkwork9999"
+    ],
+    "license": "MIT",
+    "description": "Replace pandas + matplotlib with just DuckDB - instant data visualization from SQL",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 50,
+    "fullname": {
+      "github": "Mooncake-Labs/duckdb_mooncake",
+      "ref": "d30535457a6a2fbdecb5b0cd869b543606902fc6"
+    },
+    "name": "mooncake",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Mooncake-Labs/duckdb_mooncake', 'ref': 'd30535457a6a2fbdecb5b0cd869b543606902fc6'}",
+    "authors": [
+      "dpxcc"
+    ],
+    "license": "MIT",
+    "description": "Read Iceberg tables written by moonlink in real time",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 51,
+    "fullname": {
+      "github": "Hugoberry/duckdb-msolap-extension",
+      "ref": "84e1b00e2e42a905c0efd5eb55f8bef1cefa6173"
+    },
+    "name": "msolap",
+    "version": "0.1.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Hugoberry/duckdb-msolap-extension', 'ref': '84e1b00e2e42a905c0efd5eb55f8bef1cefa6173'}",
+    "authors": [
+      "Hugoberry"
+    ],
+    "license": "MIT",
+    "description": "Extension that allows DuckDB to connect to Microsoft SQL Server Analysis Services (SSAS) and other OLAP data sources using the MSOLAP provider",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 52,
+    "fullname": {
+      "github": "paleolimbot/duckdb-nanoarrow",
+      "ref": "81ec79bc35090c65f6a7c9066bd373b5dd3b7e73"
+    },
+    "name": "nanoarrow",
+    "version": "1.4.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'paleolimbot/duckdb-nanoarrow', 'ref': '81ec79bc35090c65f6a7c9066bd373b5dd3b7e73'}",
+    "authors": [
+      "paleolimbot",
+      "pdet",
+      "evertlammerts"
+    ],
+    "license": "MIT",
+    "description": "Allows the consumption and production of the Apache Arrow interprocess communication (IPC) format, both from files and directly from stream buffers.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 53,
+    "fullname": {
+      "github": "Hugoberry/duckdb-nanodbc-extension",
+      "ref": "22897668b2cca0fdf76d585afff3e9c8ba79be22"
+    },
+    "name": "nanodbc",
+    "version": "0.3.3",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Hugoberry/duckdb-nanodbc-extension', 'ref': '22897668b2cca0fdf76d585afff3e9c8ba79be22'}",
+    "authors": [
+      "Hugoberry"
+    ],
+    "license": "MIT",
+    "description": "Connect to any ODBC-compatible database and query data directly from DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 54,
+    "fullname": {
+      "github": "hatamiarash7/duckdb-netquack",
+      "ref": "6a0d65102c709f1a508ad81b8dc9cd200b32fc7a"
+    },
+    "name": "netquack",
+    "version": "1.6.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'hatamiarash7/duckdb-netquack', 'ref': '6a0d65102c709f1a508ad81b8dc9cd200b32fc7a'}",
+    "authors": [
+      "hatamiarash7"
+    ],
+    "license": "MIT",
+    "description": "DuckDB extension for parsing, extracting, and analyzing domains, URIs, and paths with ease.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 55,
+    "fullname": {
+      "github": "dentiny/duckdb-filesystem-observability",
+      "ref": "020a21ea509cfdbf3de2f0092d4f6897319680e6"
+    },
+    "name": "observefs",
+    "version": "0.3.3",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'dentiny/duckdb-filesystem-observability', 'ref': '020a21ea509cfdbf3de2f0092d4f6897319680e6'}",
+    "authors": [
+      "dentiny"
+    ],
+    "license": "MIT",
+    "description": "Provides IO observability to filesystem",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 56,
+    "fullname": {
+      "github": "krokozyab/ofquack",
+      "ref": "4f71175a5c91526795a25e9ad6876608714eae6d"
+    },
+    "name": "ofquack",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'krokozyab/ofquack', 'ref': '4f71175a5c91526795a25e9ad6876608714eae6d'}",
+    "authors": [
+      "krokozyab"
+    ],
+    "license": "MIT",
+    "description": "The Ofquack extension provides seamless integration between DuckDB and Oracle Fusion via WSDL-based SOAP calls.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 57,
+    "fullname": {
+      "github": "quackscience/duckdb-extension-openprompt",
+      "ref": "846b35872916cbcd866f992521a108d47393737d"
+    },
+    "name": "open_prompt",
+    "version": "0.0.5",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-extension-openprompt', 'ref': '846b35872916cbcd866f992521a108d47393737d'}",
+    "authors": [
+      "lmangani",
+      "akvlad"
+    ],
+    "license": "MIT",
+    "description": "Interact with LLMs with a simple DuckDB Extension",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 58,
+    "fullname": {
+      "github": "zfarrell/duckdb_extension_parser_tools",
+      "ref": "0c74f1b24610d324d6254fce6b32755f734e3df7"
+    },
+    "name": "parser_tools",
+    "version": "0.5.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'zfarrell/duckdb_extension_parser_tools', 'ref': '0c74f1b24610d324d6254fce6b32755f734e3df7'}",
+    "authors": [
+      "zfarrell"
+    ],
+    "license": "MIT",
+    "description": "Exposes functions for parsing referenced tables and usage context from SQL queries using DuckDB's native parser.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 59,
+    "fullname": {
+      "github": "Hugoberry/duckdb-pbix-extension",
+      "ref": "3747686cc2a2175f70c9d3c3b451aa7dbf542110"
+    },
+    "name": "pbix",
+    "version": "0.5.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Hugoberry/duckdb-pbix-extension', 'ref': '3747686cc2a2175f70c9d3c3b451aa7dbf542110'}",
+    "authors": [
+      "Hugoberry"
+    ],
+    "license": "MIT",
+    "description": "Extension that allows parsing the data model embedded in PowerBI (pbix) files",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 60,
+    "fullname": {
+      "github": "quackscience/duckdb-extension-pcap",
+      "ref": "0a11ddc058beb2d480ccbfa83e16a68400c5d076"
+    },
+    "name": "pcap_reader",
+    "version": "0.1.3",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-extension-pcap', 'ref': '0a11ddc058beb2d480ccbfa83e16a68400c5d076'}",
+    "authors": [
+      "lmangani",
+      "glongo",
+      "kYroL01"
+    ],
+    "license": "MIT",
+    "description": "Read PCAP files from DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 61,
+    "fullname": {
+      "github": "Alex-Monahan/pivot_table",
+      "ref": "3e87d43b4c15a3640b26eb8942ce5e75335c879a"
+    },
+    "name": "pivot_table",
+    "version": "0.0.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Alex-Monahan/pivot_table', 'ref': '3e87d43b4c15a3640b26eb8942ce5e75335c879a'}",
+    "authors": [
+      "Alex-Monahan"
+    ],
+    "license": "MIT",
+    "description": "Provides a spreadsheet-style pivot_table function",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 62,
+    "fullname": {
+      "github": "ywelsch/duckdb-prql",
+      "ref": "0b411575bb454e96cd5bd8aa97ba1d73ed689a34"
+    },
+    "name": "prql",
+    "version": "1.0.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'ywelsch/duckdb-prql', 'ref': '0b411575bb454e96cd5bd8aa97ba1d73ed689a34'}",
+    "authors": [
+      "ywelsch"
+    ],
+    "license": "MIT",
+    "description": "Support for PRQL, the Pipelined Relational Query Language",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 63,
+    "fullname": {
+      "github": "ywelsch/duckdb-psql",
+      "ref": "f0ee86e08020f4b7d7300da5be9c7a0f01c63dce"
+    },
+    "name": "psql",
+    "version": "1.0.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'ywelsch/duckdb-psql', 'ref': 'f0ee86e08020f4b7d7300da5be9c7a0f01c63dce'}",
+    "authors": [
+      "ywelsch"
+    ],
+    "license": "MIT",
+    "description": "Support for PSQL, a piped SQL dialect for DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 64,
+    "fullname": {
+      "github": "Ian-Fogelman/psyduck",
+      "ref": "c6f12f6e349a9fe4fa0fb2da5b416a7334f66c9b"
+    },
+    "name": "psyduck",
+    "version": "1.0.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Ian-Fogelman/psyduck', 'ref': 'c6f12f6e349a9fe4fa0fb2da5b416a7334f66c9b'}",
+    "authors": [
+      "Ian-Fogelman"
+    ],
+    "license": "MIT",
+    "description": "Pokemon data native in DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 65,
+    "fullname": {
+      "github": "quackscience/duckdb-extension-pyroscope",
+      "ref": "e72cf4cdbfbe79476f55adb2a98aec2792d72f68"
+    },
+    "name": "pyroscope",
+    "version": "0.1.3",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-extension-pyroscope', 'ref': 'e72cf4cdbfbe79476f55adb2a98aec2792d72f68'}",
+    "authors": [
+      "lmangani",
+      "akvlad"
+    ],
+    "license": "MIT",
+    "description": "DuckDB Pyroscope Extension for Continuous Profiling",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 66,
+    "fullname": {
+      "github": "duckdb/extension-template",
+      "ref": "e52f46eeca9157124cbc910f52ea8637c95084a1"
+    },
+    "name": "quack",
+    "version": "0.0.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'duckdb/extension-template', 'ref': 'e52f46eeca9157124cbc910f52ea8637c95084a1'}",
+    "authors": [
+      "hannes"
+    ],
+    "license": "MIT",
+    "description": "Provides a hello world example demo",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 67,
+    "fullname": {
+      "github": "martin-conur/quackformers",
+      "ref": "efa6753b16ffe7d97c0855894251a519d95d9034"
+    },
+    "name": "quackformers",
+    "version": "0.1.4",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'martin-conur/quackformers', 'ref': 'efa6753b16ffe7d97c0855894251a519d95d9034'}",
+    "authors": [
+      "martin-conur"
+    ],
+    "license": "MIT",
+    "description": "Bert-based embedding extension.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 68,
+    "fullname": {
+      "github": "coginiti-dev/QuackStore",
+      "ref": "0cf83e4024b5fa0e45d8475f152b4166cf938001"
+    },
+    "name": "quackstore",
+    "version": "1.0.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'coginiti-dev/QuackStore', 'ref': '0cf83e4024b5fa0e45d8475f152b4166cf938001'}",
+    "authors": [
+      "dkosmakovcog",
+      "mullinsms",
+      "rnestertsov"
+    ],
+    "license": "MIT",
+    "description": "QuackStore - Smart Block-Based Caching for Remote Files. Speed up repeated queries on remote data with intelligent block-level caching.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 69,
+    "fullname": {
+      "github": "quackscience/duckdb-quickjs",
+      "ref": "83906e2486de7823b10aabcca931533feadfe23c"
+    },
+    "name": "quickjs",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-quickjs', 'ref': '83906e2486de7823b10aabcca931533feadfe23c'}",
+    "authors": [
+      "lmangani"
+    ],
+    "license": "MIT",
+    "description": "DuckDB QuickJS Runtime Extension",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 70,
+    "fullname": {
+      "github": "query-farm/radio",
+      "ref": "8c9d85cc7632c8ed4172a5413b3168bb158971ee"
+    },
+    "name": "radio",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/radio', 'ref': '8c9d85cc7632c8ed4172a5413b3168bb158971ee'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "Allow interaction with event buses like Websocket and Redis publish/subscribe servers.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 71,
+    "fullname": {
+      "github": "query-farm/rapidfuzz",
+      "ref": "ab47af95622e5b23769d3aac2dca16bbf69d8d35"
+    },
+    "name": "rapidfuzz",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/rapidfuzz', 'ref': 'ab47af95622e5b23769d3aac2dca16bbf69d8d35'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "Provides adds high-performance fuzzy string matching functions, powered by the RapidFuzz C++ library.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 72,
+    "fullname": {
+      "github": "mettekou/duckdb-read-stat",
+      "ref": "d66821b3626caddbc8da7794617747e079f2ff64"
+    },
+    "name": "read_stat",
+    "version": "0.2.3",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'mettekou/duckdb-read-stat', 'ref': 'd66821b3626caddbc8da7794617747e079f2ff64'}",
+    "authors": [
+      "mettekou"
+    ],
+    "license": "MIT",
+    "description": "Read data sets from SAS, Stata, and SPSS with ReadStat",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 73,
+    "fullname": {
+      "github": "quackscience/duckdb-extension-redis",
+      "ref": "03bb83c5d1f50ac9f085f49c6415ccb6d0854517"
+    },
+    "name": "redis",
+    "version": "1.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-extension-redis', 'ref': '03bb83c5d1f50ac9f085f49c6415ccb6d0854517'}",
+    "authors": [
+      "lmangani",
+      "gigapi"
+    ],
+    "license": "MIT",
+    "description": "Redis compatible Client for DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 74,
+    "fullname": {
+      "github": "duckdb/extension-template-rs",
+      "ref": "3dd3adbeb84f617ebc44619d8b1a8fe6416fd214"
+    },
+    "name": "rusty_quack",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'duckdb/extension-template-rs', 'ref': '3dd3adbeb84f617ebc44619d8b1a8fe6416fd214'}",
+    "authors": [
+      "samansmink",
+      "mlafeldt"
+    ],
+    "license": "MIT",
+    "description": "Provides a hello world example demo from the Rust-based extension template",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 75,
+    "fullname": {
+      "github": "redraiment/rusty-sheet",
+      "ref": "3cc700798071238763b9dc84ed0d16b42ab1e57d"
+    },
+    "name": "rusty_sheet",
+    "version": "0.1.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'redraiment/rusty-sheet', 'ref': '3cc700798071238763b9dc84ed0d16b42ab1e57d'}",
+    "authors": [
+      "redraiment"
+    ],
+    "license": "MIT",
+    "description": "An Excel/OpenDocument Spreadsheets file reader for DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 76,
+    "fullname": {
+      "github": "pdet/Scrooge-McDuck",
+      "ref": "222e094570f307208258b8faf90dd401fa152acd"
+    },
+    "name": "scrooge",
+    "version": "0.0.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'pdet/Scrooge-McDuck', 'ref': '222e094570f307208258b8faf90dd401fa152acd'}",
+    "authors": [
+      "pdet"
+    ],
+    "license": "MIT",
+    "description": "Provides functionality for financial data-analysis, including data scanners for the Ethereum Blockchain and Yahoo Finance",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 77,
+    "fullname": {
+      "github": "polydbms/sheetreader-duckdb",
+      "ref": "887013792794aaac8bffd040fcb2439dd797ad53"
+    },
+    "name": "sheetreader",
+    "version": "0.1.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'polydbms/sheetreader-duckdb', 'ref': '887013792794aaac8bffd040fcb2439dd797ad53'}",
+    "authors": [
+      "freddie-freeloader"
+    ],
+    "license": "MIT",
+    "description": "Fast XLSX file importer",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 78,
+    "fullname": {
+      "github": "query-farm/shellfs",
+      "ref": "f0bcfb8035b2f2d62b3dbfa202bbe61a125b51ee"
+    },
+    "name": "shellfs",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/shellfs', 'ref': 'f0bcfb8035b2f2d62b3dbfa202bbe61a125b51ee'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "Allow shell commands to be used for input and output",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 79,
+    "fullname": {
+      "github": "iqea-ai/duckdb-snowflake",
+      "ref": "75ab20e7349beaff184fcd3f98efbd90bcd7d812",
+      "ref_next": "75ab20e7349beaff184fcd3f98efbd90bcd7d812"
+    },
+    "name": "snowflake",
+    "version": "0.1.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'iqea-ai/duckdb-snowflake', 'ref': '75ab20e7349beaff184fcd3f98efbd90bcd7d812', 'ref_next': '75ab20e7349beaff184fcd3f98efbd90bcd7d812'}",
+    "authors": [
+      "iqea-ai"
+    ],
+    "license": "MIT",
+    "description": "Integrates DuckDB with Snowflake, allowing direct querying and management of Snowflake databases using Arrow ADBC drivers",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 80,
+    "fullname": {
+      "github": "moj-analytical-services/splink_udfs",
+      "ref": "86f88013fd7c89d48da63289a5ccf62de8aac472"
+    },
+    "name": "splink_udfs",
+    "version": "0.0.10",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'moj-analytical-services/splink_udfs', 'ref': '86f88013fd7c89d48da63289a5ccf62de8aac472'}",
+    "authors": [
+      "RobinL"
+    ],
+    "license": "MIT",
+    "description": "Phonetic, text normalization and address matching functions for record linkage.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 81,
+    "fullname": {
+      "github": "yutannihilation/duckdb-ext-st-read-multi",
+      "ref": "e82e2f361944d78c800421a3138fdbacf1f636dc"
+    },
+    "name": "st_read_multi",
+    "version": "0.0.3",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'yutannihilation/duckdb-ext-st-read-multi', 'ref': 'e82e2f361944d78c800421a3138fdbacf1f636dc'}",
+    "authors": [
+      "yutannihilation"
+    ],
+    "license": "MIT",
+    "description": "Read multiple geospatial files",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 82,
+    "fullname": {
+      "github": "query-farm/stochastic",
+      "ref": "a754224fc67f16ab2e176cce8d89a15868cd1256"
+    },
+    "name": "stochastic",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/stochastic', 'ref': 'a754224fc67f16ab2e176cce8d89a15868cd1256'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "Apache-2.0",
+    "description": "Add comprehensive statistical distribution functions to DuckDB, enabling advanced statistical analysis, probability calculations, and random sampling directly within SQL queries.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 83,
+    "fullname": {
+      "github": "substrait-io/duckdb-substrait-extension",
+      "ref": "ec9f8725df7aa22bae7217ece2f221ac37563da4"
+    },
+    "name": "substrait",
+    "version": "1.2.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'substrait-io/duckdb-substrait-extension', 'ref': 'ec9f8725df7aa22bae7217ece2f221ac37563da4'}",
+    "authors": [
+      "anshuldata",
+      "cgkiran",
+      "EpsilonPrime"
+    ],
+    "license": "Apache-2.0",
+    "description": "Allows conversion execution of Substrait query plans",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 84,
+    "fullname": {
+      "github": "Maxxen/duckdb_tarfs",
+      "ref": "6d468b45f38f16d58e49032edd76aa76c2a2b078"
+    },
+    "name": "tarfs",
+    "version": "1.0.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Maxxen/duckdb_tarfs', 'ref': '6d468b45f38f16d58e49032edd76aa76c2a2b078'}",
+    "authors": [
+      "Maxxen"
+    ],
+    "license": "MIT",
+    "description": "glob, open and read files within `.tar` archives",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 85,
+    "fullname": {
+      "github": "query-farm/tera",
+      "ref": "68c4797ed487445933eae1683bb8074a56a477ff"
+    },
+    "name": "tera",
+    "version": 2025102001,
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/tera', 'ref': '68c4797ed487445933eae1683bb8074a56a477ff'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "Apache-2.0",
+    "description": "Adds templating to DuckDB, enabling dynamic generation of text, HTML, and reports directly within SQL queries using the Tera engine.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 86,
+    "fullname": {
+      "github": "query-farm/textplot",
+      "ref": "d8ab4d5dfa52f70cf059a9e23cb3b90228f647ad"
+    },
+    "name": "textplot",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/textplot', 'ref': 'd8ab4d5dfa52f70cf059a9e23cb3b90228f647ad'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "Apache-2.0",
+    "description": "Enables text-based data visualization directly in SQL queries, including ASCII/Unicode bar charts, density plots, and sparklines for lightweight analytics and dashboards.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 87,
+    "fullname": {
+      "github": "martin-conur/duckdb-title-mapper",
+      "ref": "48519d2d38eda1103d8cc3261c84fbbd4dc90b18"
+    },
+    "name": "title_mapper",
+    "version": "1.4.1.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'martin-conur/duckdb-title-mapper', 'ref': '48519d2d38eda1103d8cc3261c84fbbd4dc90b18'}",
+    "authors": [
+      "martin-conur"
+    ],
+    "license": "MIT",
+    "description": "Efficiently standardizes scraped job titles to Bureau of Labor Statistics (BLS) titles using a high-performance TF-IDF algorithm.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 88,
+    "fullname": {
+      "github": "query-farm/tributary",
+      "ref": "8d5742017bd1438a414d6f73ff8f0a815b3e7916"
+    },
+    "name": "tributary",
+    "version": "2025101201",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'query-farm/tributary', 'ref': '8d5742017bd1438a414d6f73ff8f0a815b3e7916'}",
+    "authors": [
+      "rustyconover"
+    ],
+    "license": "MIT",
+    "description": "Enable DuckDB to interact with Apache Kafka",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 89,
+    "fullname": {
+      "github": "quackscience/duckdb-extension-tsid",
+      "ref": "42203135d324143cc3e5d69def36d89b4370ae06"
+    },
+    "name": "tsid",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-extension-tsid', 'ref': '42203135d324143cc3e5d69def36d89b4370ae06'}",
+    "authors": [
+      "lmangani"
+    ],
+    "license": "MIT",
+    "description": "DuckDB Time-Sortable ID generator",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 90,
+    "fullname": {
+      "github": "Maxxen/duckdb_ulid",
+      "ref": "b8368f646d57aa1bc73a8fee37621fcb87e4ccd2"
+    },
+    "name": "ulid",
+    "version": "1.0.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'Maxxen/duckdb_ulid', 'ref': 'b8368f646d57aa1bc73a8fee37621fcb87e4ccd2'}",
+    "authors": [
+      "Maxxen"
+    ],
+    "license": "MIT",
+    "description": "ULID data type for DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 91,
+    "fullname": {
+      "github": "vortex-data/duckdb-vortex",
+      "ref": "8c592713f9d970a8a2004eebf2db1fd2099a42dd"
+    },
+    "name": "vortex",
+    "version": "0.53.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'vortex-data/duckdb-vortex', 'ref': '8c592713f9d970a8a2004eebf2db1fd2099a42dd'}",
+    "authors": [
+      "joseph-isaacs",
+      "0ax1",
+      "gatesn"
+    ],
+    "license": "Apache-2.0",
+    "description": "Provides write and scan functions for Vortex files",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 92,
+    "fullname": {
+      "github": "teaguesterling/duckdb_webbed",
+      "ref": "f2e49ff826ac9ecc084968eaf8e64269c1f82361"
+    },
+    "name": "webbed",
+    "version": "1.1.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'teaguesterling/duckdb_webbed', 'ref': 'f2e49ff826ac9ecc084968eaf8e64269c1f82361'}",
+    "authors": [
+      "teaguesterling"
+    ],
+    "license": "MIT",
+    "description": "Comprehensive processing extension for web markup languages (XML and HTML) that enables SQL-native analysis of structured documents with intelligent schema inference, XPath-based data extraction, and powerful HTML table parsing capabilities.",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 93,
+    "fullname": {
+      "github": "quackscience/duckdb-extension-webmacro",
+      "ref": "3f980d8f79df0da8da42e7d5f0bc07ddc74f816d"
+    },
+    "name": "webmacro",
+    "version": "0.0.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'quackscience/duckdb-extension-webmacro', 'ref': '3f980d8f79df0da8da42e7d5f0bc07ddc74f816d'}",
+    "authors": [
+      "lmangani"
+    ],
+    "license": "MIT",
+    "description": "Load DuckDB Macros from the web",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 94,
+    "fullname": {
+      "github": "hyehudai/wireduck",
+      "ref": "19c4018cc8ebad08547d621bcdc25df86294ca2b"
+    },
+    "name": "wireduck",
+    "version": "0.0.2",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'hyehudai/wireduck', 'ref': '19c4018cc8ebad08547d621bcdc25df86294ca2b'}",
+    "authors": [
+      "hyehudai"
+    ],
+    "license": "MIT",
+    "description": "Read and dissect PCAP files from DuckDB",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 95,
+    "fullname": {
+      "github": "teaguesterling/duckdb_yaml",
+      "ref": "fcd187a17027f0a2a5d98ce6fa44bdbd294f941a"
+    },
+    "name": "yaml",
+    "version": "1.2.0",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'teaguesterling/duckdb_yaml', 'ref': 'fcd187a17027f0a2a5d98ce6fa44bdbd294f941a'}",
+    "authors": [
+      "teaguesterling"
+    ],
+    "license": "MIT",
+    "description": "Read YAML files into DuckDB with native YAML type support, comprehensive extraction functions, and seamless JSON interoperability",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  },
+  {
+    "id": 96,
+    "fullname": {
+      "github": "isaacbrodsky/duckdb-zipfs",
+      "ref": "fdb8f526709865d68aa6b89ca8428b3a43c1cd8a"
+    },
+    "name": "zipfs",
+    "version": "1.4.1",
+    "homepage": "",
+    "repository": "https://github.com/{'github': 'isaacbrodsky/duckdb-zipfs', 'ref': 'fdb8f526709865d68aa6b89ca8428b3a43c1cd8a'}",
+    "authors": [
+      "isaacbrodsky"
+    ],
+    "license": "MIT",
+    "description": "Read files within zip archives",
+    "keywords": "",
+    "symbols": [],
+    "assets": {}
+  }
+]
