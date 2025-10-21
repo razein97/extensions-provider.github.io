@@ -43,7 +43,8 @@ def fetch_duckdb_packages():
                             if item is not None:
                                 ready_item:Dict[Any, Any] = {};
                                 count = len(parsed_data);
-                                repo_name:str = item.get('repo', '');
+                                repo = item.get('repo', '');
+                                repo_name = repo.get('github', '');
                                 repository = f"https://github.com/{repo_name}"
 
                                 ready_item.update({

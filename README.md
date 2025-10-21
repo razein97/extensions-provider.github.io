@@ -19,3 +19,21 @@ pip install requirements.txt
 
 python3 main.py
 ```
+
+## Online version
+
+[https://razein97.github.io/extprovider](https://razein97.github.io/extprovider)
+
+### JSON Data
+
+- [https://razein97.github.io/extprovider/json/sqlite.json](https://razein97.github.io/extprovider/json/sqlite.json)
+- [https://razein97.github.io/extprovider/json/duckdb.json](https://razein97.github.io/extprovider/json/duckdb.json)
+
+Example usage:
+
+```js
+const response = await fetch(
+  'https://razein97.github.io/extprovider/json/sqlite.json'
+);
+const extensions = await response.json();
+```
