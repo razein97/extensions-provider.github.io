@@ -4,17 +4,16 @@ import requests
 import yaml
 import base64
 
+from main import GitHubAPIClient
 from packages.common import parse_local_pkg, save_json
 
 
 def fetch_duckdb_packages():
     # All extensions are hosted on github hence we need to visit the repo in order to get the extension details
     duckdb_git_tree = "https://api.github.com/repos/duckdb/community-extensions/git/trees/86761d118e803aeafd02ad4aac735d95fa81d301";
+    client = GitHubAPIClient();
     try:
-        response = requests.get(duckdb_git_tree, timeout=10,)
-        time.sleep(1)
-        response.raise_for_status()  # Raise exception for bad status codes
-        tree_json:Dict[Any, Any] = response.json();
+        tree_json:Dict[Any, Any] = client.get(duckdb_git_tree);
 
         tree: List[Dict[Any, Any]] = tree_json['tree'];
 
@@ -22,23 +21,14 @@ def fetch_duckdb_packages():
 
         for branch in tree:
             stem_url = branch['url'];
-
             try:
-                
-                stem_response = requests.get(stem_url, timeout=10);
-                time.sleep(1)
-                stem_response.raise_for_status();
-                
-                leaf_json= response.json();
+                leaf_json= client.get(stem_url);
                 leaves: List[Dict[Any, Any]] = leaf_json['tree'];
                 for leaf in leaves:
                     if leaf['path'] == "description.yml":   
                         try:
                             binary_url = leaf['url'];
-                            bin_response = requests.get(binary_url, timeout=10);
-                            time.sleep(1)
-                            bin_response.raise_for_status();
-                            base64_json = response.json();
+                            base64_json = client.get(binary_url);
                             # remove the \n in the content
                             base_64_content:str = base64_json["content"];
                             replaced_content = base_64_content.replace("\\n", '');
