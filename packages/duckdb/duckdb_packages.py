@@ -1,11 +1,10 @@
-import time
+
 from typing import Any, Dict, List
 import requests
 import yaml
 import base64
 
-from main import GitHubAPIClient
-from packages.common import parse_local_pkg, save_json
+from packages.common import parse_local_pkg, save_json, GitHubAPIClient
 
 
 def fetch_duckdb_packages():
@@ -38,13 +37,15 @@ def fetch_duckdb_packages():
                             if item is not None:
                                 ready_item:Dict[Any, Any] = {};
                                 count = len(parsed_data);
+                                repo_name:str = item['repo'];
+                                repository = f"https://github.com/{repo_name}"
                                 ready_item.update({
                                     'id':count, 
-                                    'fullname': item['repo'],
+                                    'fullname': repo_name,
                                     'name': ext['name'],
                                     'version': ext['version'],
                                     'homepage': "",
-                                    'repository': "https://github.com/"+item['repo'],
+                                    'repository': repository,
                                     'authors': ext["maintainers"],
                                     'license': ext['license'],
                                     "description": ext['description'],
