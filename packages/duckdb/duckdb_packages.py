@@ -1,0 +1,87 @@
+import time
+from typing import Any, Dict, List
+import requests
+import yaml
+import base64
+
+from packages.common import parse_local_pkg, save_json
+
+
+def fetch_duckdb_packages():
+    # All extensions are hosted on github hence we need to visit the repo in order to get the extension details
+    duckdb_git_tree = "https://api.github.com/repos/duckdb/community-extensions/git/trees/86761d118e803aeafd02ad4aac735d95fa81d301";
+    try:
+        response = requests.get(duckdb_git_tree, timeout=10,)
+        time.sleep(1)
+        response.raise_for_status()  # Raise exception for bad status codes
+        tree_json:Dict[Any, Any] = response.json();
+
+        tree: List[Dict[Any, Any]] = tree_json['tree'];
+
+        parsed_data : List[Dict[Any, Any]] = [];
+
+        for branch in tree:
+            stem_url = branch['url'];
+
+            try:
+                
+                stem_response = requests.get(stem_url, timeout=10);
+                time.sleep(1)
+                stem_response.raise_for_status();
+                
+                leaf_json= response.json();
+                leaves: List[Dict[Any, Any]] = leaf_json['tree'];
+                for leaf in leaves:
+                    if leaf['path'] == "description.yml":   
+                        try:
+                            binary_url = leaf['url'];
+                            bin_response = requests.get(binary_url, timeout=10);
+                            time.sleep(1)
+                            bin_response.raise_for_status();
+                            base64_json = response.json();
+                            # remove the \n in the content
+                            base_64_content:str = base64_json["content"];
+                            replaced_content = base_64_content.replace("\\n", '');
+                            decoded =  base64.b64decode(replaced_content);
+                            item = yaml.safe_load(decoded);
+                            ext = item['extension'];
+                            if item is not None:
+                                ready_item:Dict[Any, Any] = {};
+                                count = len(parsed_data);
+                                ready_item.update({
+                                    'id':count, 
+                                    'fullname': item['repo'],
+                                    'name': ext['name'],
+                                    'version': ext['version'],
+                                    'homepage': "",
+                                    'repository': "https://github.com/"+item['repo'],
+                                    'authors': ext["maintainers"],
+                                    'license': ext['license'],
+                                    "description": ext['description'],
+                                    'keywords': '',
+                                    'symbols': [],
+                                    'assets':{}
+                                    });
+                        
+                                parsed_data.append(ready_item);
+
+                        except requests.exceptions.RequestException as e:
+                            print(f"Error fetching data: {e}")
+                            return {}                
+            except requests.exceptions.RequestException as e:
+                print(f"Error fetching data: {e}")
+                return {}
+
+
+        items_len = len(parsed_data);
+        parsed_local_items = parse_local_pkg(items_len, './packages/duckdb/packages.yaml');
+        joined_list = parsed_data + parsed_local_items;
+        save_json(joined_list, "./json/duckdb.json")
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching data: {e}")
+        return {}
+
+
+
+
+

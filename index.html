@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Extension Provider</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
+          Arial, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: #333;
+        line-height: 1.6;
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 12px;
+        padding: 40px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid #e1e4e8;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        color: #667eea;
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+
+      .tagline {
+        color: #666;
+        font-size: 1.2em;
+        margin-top: 10px;
+      }
+
+      .section {
+        margin-bottom: 35px;
+      }
+
+      h2 {
+        color: #333;
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #667eea;
+      }
+
+      p {
+        color: #555;
+        font-size: 1.05em;
+        margin-bottom: 15px;
+      }
+
+      .features {
+        background: #f6f8fa;
+        border-radius: 8px;
+        padding: 25px;
+        margin: 20px 0;
+      }
+
+      .features ul {
+        list-style: none;
+      }
+
+      .features li {
+        padding: 12px 0;
+        padding-left: 30px;
+        position: relative;
+        color: #555;
+        font-size: 1.05em;
+      }
+
+      /* .features li:before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: #667eea;
+        font-weight: bold;
+        font-size: 1.3em;
+      } */
+
+      .databases {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin: 20px 0;
+      }
+
+      .db-tag {
+        background: #667eea;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 20px;
+        font-size: 0.95em;
+        font-weight: 500;
+      }
+
+      .code-block {
+        background: #1e1e1e;
+        color: #d4d4d4;
+        padding: 20px;
+        border-radius: 8px;
+        overflow-x: auto;
+        margin: 20px 0;
+        font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        font-size: 0.95em;
+        line-height: 1.5;
+      }
+
+      .code-block code {
+        color: #d4d4d4;
+      }
+
+      .command {
+        color: #4ec9b0;
+      }
+
+      .github-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: #24292e;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.3s ease;
+        margin-top: 20px;
+      }
+
+      .github-link:hover {
+        background: #2f363d;
+      }
+
+      .github-icon {
+        width: 24px;
+        height: 24px;
+        fill: white;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 50px;
+        padding-top: 30px;
+        border-top: 2px solid #e1e4e8;
+        color: #666;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 25px;
+        }
+
+        h1 {
+          font-size: 2em;
+        }
+
+        h2 {
+          font-size: 1.5em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Extension Provider</h1>
+        <p class="tagline">
+          Streamlined database extension management and discovery
+        </p>
+      </header>
+
+      <div class="section">
+        <h2>About</h2>
+        <p>
+          Extension Provider is a lightweight service that reduces API load on
+          main database extension servers by providing a centralized mirror of
+          extension metadata. It serves as a comprehensive catalog of extensions
+          available for popular databases.
+        </p>
+
+        <div class="databases">
+          <span class="db-tag">DuckDB</span>
+          <span class="db-tag">SQLite</span>
+          <span class="db-tag">More to come</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Features</h2>
+        <div class="features">
+          <ul>
+            <li>
+              Mirrors extension data from multiple database providers in JSON
+              format
+            </li>
+            <li>Provides a pseudo-API for easy programmatic access</li>
+            <li>Reduces load on upstream extension servers</li>
+            <li>Fast, lightweight, and easy to deploy</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Quick Start</h2>
+        <p>Get up and running in seconds:</p>
+
+        <div class="code-block">
+          <code>
+            <span class="command">pip install requirements.txt</span>
+          </code>
+          <br />
+          <code>
+            <span class="command">python3 main.py</span>
+          </code>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>API Access</h2>
+        <p>Access extension data directly through our JSON endpoints:</p>
+
+        <div class="features">
+          <ul>
+            <li>
+              <strong>SQLite:</strong>
+              <code
+                style="
+                  background: #e1e4e8;
+                  padding: 4px 8px;
+                  border-radius: 4px;
+                  color: #24292e;
+                "
+                >extensions-provider.github.io/json/sqlite.json</code
+              >
+            </li>
+            <li>
+              <strong>DuckDB:</strong>
+              <code
+                style="
+                  background: #e1e4e8;
+                  padding: 4px 8px;
+                  border-radius: 4px;
+                  color: #24292e;
+                "
+                >extensions-provider.github.io/json/duckdb.json</code
+              >
+            </li>
+          </ul>
+        </div>
+
+        <p style="margin-top: 20px">Example usage:</p>
+        <div class="code-block">
+          <code
+            ><span style="color: #c586c0">const</span> response =
+            <span style="color: #c586c0">await</span>
+            <span style="color: #dcdcaa">fetch</span>(<span
+              style="color: #ce9178"
+              >'json/sqlite.json'</span
+            >);
+
+            <br />
+            <span style="color: #c586c0">const</span> extensions =
+            <span style="color: #c586c0">await</span> response.<span
+              style="color: #dcdcaa"
+              >json</span
+            >();</code
+          >
+        </div>
+      </div>
+
+      <footer>
+        <!-- <p>Built for the database community • Open Source</p> -->
+      </footer>
+    </div>
+  </body>
+</html>
