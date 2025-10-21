@@ -12,7 +12,7 @@ class GitHubAPIClient:
     
     def __init__(self, token: Optional[str] = None):
         self.base_url = "https://api.github.com"
-        self.token = token or os.getenv("GITHUB_TOKEN")
+        self.token = token or os.getenv("GIT_TOKEN")
         self.session = requests.Session()
         
         if self.token:
