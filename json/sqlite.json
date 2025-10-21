@@ -1,0 +1,4090 @@
+[
+  {
+    "id": 0,
+    "fullname": "andreasbell/protobuf",
+    "owner": "andreasbell",
+    "name": "protobuf",
+    "version": "v0.1.5",
+    "homepage": "",
+    "repository": "https://github.com/andreasbell/sqlite_protobuf",
+    "authors": [
+      "Andreas Martinsen"
+    ],
+    "license": "MIT",
+    "description": "Read Protobuf messages.",
+    "keywords": [],
+    "symbols": [
+      "protobuf_extract",
+      "protobuf_foreach",
+      "protobuf_to_json"
+    ],
+    "assets": {
+      "path": "https://github.com/andreasbell/sqlite_protobuf/releases/download/v0.1.5",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite_protobuf-macos-x64.zip",
+        "darwin-arm64": "sqlite_protobuf-macos-aarch64.zip",
+        "linux-amd64": "sqlite_protobuf-linux-x64.tar.gz",
+        "linux-arm64": "sqlite_protobuf-linux-aarch64.tar.gz",
+        "windows-amd64": "sqlite_protobuf-windows-x64.zip",
+        "windows-arm64": "sqlite_protobuf-windows-aarch64.zip"
+      }
+    }
+  },
+  {
+    "id": 1,
+    "fullname": "asg017/fastrand",
+    "owner": "asg017",
+    "name": "fastrand",
+    "version": "v0.2.1",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-fastrand",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Quickly generating random numbers, booleans, characters, and blobs.",
+    "keywords": [
+      "sqlite-fastrand"
+    ],
+    "symbols": [
+      "fastrand_alphabetic",
+      "fastrand_alphanumeric",
+      "fastrand_blob",
+      "fastrand_bool",
+      "fastrand_debug",
+      "fastrand_digit",
+      "fastrand_double",
+      "fastrand_int",
+      "fastrand_int64",
+      "fastrand_lowercase",
+      "fastrand_seed_get",
+      "fastrand_seed_set",
+      "fastrand_uppercase",
+      "fastrand_version"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-fastrand/releases/download/v0.2.1",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-fastrand-v0.2.1-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-fastrand-v0.2.1-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-fastrand-v0.2.1-loadable-linux-x86_64.tar.gz",
+        "windows-amd64": "sqlite-fastrand-v0.2.1-loadable-windows-x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "fullname": "asg017/hello",
+    "owner": "asg017",
+    "name": "hello",
+    "version": "v0.1.0-alpha.50",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-hello",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "The smallest possible \"hello, username\" extension.",
+    "keywords": [
+      "sqlite-hello"
+    ],
+    "symbols": [
+      "hello"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-hello/releases/download/v0.1.0-alpha.50",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-hello-v0.1.0-alpha.50-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-hello-v0.1.0-alpha.50-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-hello-v0.1.0-alpha.50-loadable-linux-x86_64.tar.gz",
+        "windows-amd64": "sqlite-hello-v0.1.0-alpha.50-loadable-windows-x86_64.tar.gz"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "fullname": "asg017/html",
+    "owner": "asg017",
+    "name": "html",
+    "version": "v0.1.3",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-html",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Querying, manipulating, and creating HTML elements.",
+    "keywords": [
+      "sqlite-html"
+    ],
+    "symbols": [
+      "html_attribute_get",
+      "html_attribute_has",
+      "html_count",
+      "html_debug",
+      "html_each",
+      "html_element",
+      "html_escape",
+      "html_extract",
+      "html_table",
+      "html_text",
+      "html_trim",
+      "html_unescape",
+      "html_version",
+      "html"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-html/releases/download/v0.1.3",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-html-v0.1.3-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-html-v0.1.3-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-html-v0.1.3-loadable-linux-x86_64.tar.gz",
+        "windows-amd64": "sqlite-html-v0.1.3-loadable-windows-x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "fullname": "asg017/http",
+    "owner": "asg017",
+    "name": "http",
+    "version": "v0.1.1",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-http",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Making HTTP requests purely in SQL.",
+    "keywords": [
+      "sqlite-http"
+    ],
+    "symbols": [
+      "http_cookies",
+      "http_debug",
+      "http_do_body",
+      "http_do_headers",
+      "http_do",
+      "http_get_body",
+      "http_get_headers",
+      "http_get",
+      "http_headers_each",
+      "http_headers_get",
+      "http_headers_has",
+      "http_headers",
+      "http_post_body",
+      "http_post_form_urlencoded",
+      "http_post_headers",
+      "http_post",
+      "http_rate_limit",
+      "http_timeout_set",
+      "http_version"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-http/releases/download/v0.1.1",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-http-v0.1.1-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-http-v0.1.1-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-http-v0.1.1-loadable-linux-x86_64.tar.gz",
+        "windows-amd64": "sqlite-http-v0.1.1-loadable-windows-x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "fullname": "asg017/jsonschema",
+    "owner": "asg017",
+    "name": "jsonschema",
+    "version": "v0.2.3",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-jsonschema",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "Apache-2.0 AND MIT",
+    "description": "Validating JSON objects with JSON Schema.",
+    "keywords": [
+      "sqlite-jsonschema"
+    ],
+    "symbols": [
+      "jsonschema_debug",
+      "jsonschema_matches",
+      "jsonschema_version"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-jsonschema/releases/download/v0.2.3",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-jsonschema-v0.2.3-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-jsonschema-v0.2.3-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-jsonschema-v0.2.3-loadable-linux-x86_64.tar.gz",
+        "windows-amd64": "sqlite-jsonschema-v0.2.3-loadable-windows-x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "fullname": "asg017/lines",
+    "owner": "asg017",
+    "name": "lines",
+    "version": "v0.2.2",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-lines",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Reading large files line-by-line (NDJSON, logs, txt, etc.)",
+    "keywords": [
+      "sqlite-lines"
+    ],
+    "symbols": [
+      "lines_debug",
+      "lines_read",
+      "lines_version",
+      "lines"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-lines/releases/download/v0.2.2",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-lines-v0.2.2-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-lines-v0.2.2-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-lines-v0.2.2-loadable-linux-x86_64.tar.gz"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "fullname": "asg017/path",
+    "owner": "asg017",
+    "name": "path",
+    "version": "v0.2.1",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-path",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Parsing, generating, and querying paths.",
+    "keywords": [
+      "sqlite-path"
+    ],
+    "symbols": [
+      "path_absolute",
+      "path_basename",
+      "path_debug",
+      "path_dirname",
+      "path_extension",
+      "path_intersection",
+      "path_join",
+      "path_name",
+      "path_normalize",
+      "path_part_at",
+      "path_parts",
+      "path_root",
+      "path_version"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-path/releases/download/v0.2.1",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-path-v0.2.1-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-path-v0.2.1-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-path-v0.2.1-loadable-linux-x86_64.tar.gz",
+        "windows-amd64": "sqlite-path-v0.2.1-loadable-windows-x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "fullname": "asg017/regex",
+    "owner": "asg017",
+    "name": "regex",
+    "version": "v0.2.3",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-regex",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Fast and performant regular expressions.",
+    "keywords": [
+      "sqlite-regex"
+    ],
+    "symbols": [
+      "regex_capture",
+      "regex_captures",
+      "regex_debug",
+      "regex_find_all",
+      "regex_find",
+      "regex_print",
+      "regex_replace_all",
+      "regex_replace",
+      "regex_split",
+      "regex_valid",
+      "regex_version",
+      "regex",
+      "regexp",
+      "regexset_is_match",
+      "regexset_matches",
+      "regexset_print",
+      "regexset"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-regex/releases/download/v0.2.3",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-regex-v0.2.3-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-regex-v0.2.3-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-regex-v0.2.3-loadable-linux-x86_64.tar.gz",
+        "windows-amd64": "sqlite-regex-v0.2.3-loadable-windows-x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "fullname": "asg017/ulid",
+    "owner": "asg017",
+    "name": "ulid",
+    "version": "v0.2.1",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-ulid",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "Apache-2.0 AND MIT",
+    "description": "Generating and working with ULIDs.",
+    "keywords": [
+      "sqlite-ulid"
+    ],
+    "symbols": [
+      "ulid_bytes",
+      "ulid_datetime",
+      "ulid_debug",
+      "ulid_version",
+      "ulid_with_prefix",
+      "ulid"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-ulid/releases/download/v0.2.1",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-ulid-v0.2.1-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-ulid-v0.2.1-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-ulid-v0.2.1-loadable-linux-x86_64.tar.gz",
+        "windows-amd64": "sqlite-ulid-v0.2.1-loadable-windows-x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "fullname": "asg017/url",
+    "owner": "asg017",
+    "name": "url",
+    "version": "v0.1.0",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-url",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Parsing, generating, and querying URLs and query strings.",
+    "keywords": [
+      "sqlite-lines"
+    ],
+    "symbols": [
+      "url_debug",
+      "url_escape",
+      "url_fragment",
+      "url_host",
+      "url_options",
+      "url_password",
+      "url_path",
+      "url_port",
+      "url_query_each",
+      "url_query",
+      "url_querystring",
+      "url_scheme",
+      "url_unescape",
+      "url_user",
+      "url_valid",
+      "url_version",
+      "url_zoneid",
+      "url"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-url/releases/download/v0.1.0",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-url-v0.1.0-loadable-macos-x86_64.tar.gz",
+        "linux-amd64": "sqlite-url-v0.1.0-loadable-linux-x86_64.tar.gz"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "fullname": "asg017/vec",
+    "owner": "asg017",
+    "name": "vec",
+    "version": "0.1.6",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-vec",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Vector search.",
+    "keywords": [
+      "sqlite-vec"
+    ],
+    "symbols": [
+      "vec0"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-vec/releases/download/v0.1.6",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-vec-0.1.6-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-vec-0.1.6-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-vec-0.1.6-loadable-linux-x86_64.tar.gz",
+        "linux-arm64": "sqlite-vec-0.1.6-loadable-linux-aarch64.tar.gz",
+        "windows-amd64": "sqlite-vec-0.1.6-loadable-windows-x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "fullname": "asg017/vss",
+    "owner": "asg017",
+    "name": "vss",
+    "version": "v0.1.2",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-vss",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Efficient vector search, based on Faiss.",
+    "keywords": [
+      "sqlite-vss"
+    ],
+    "symbols": [
+      "vss0",
+      "vss_search",
+      "vss_search_params",
+      "vss_range_search",
+      "vss_range_search_params",
+      "vss_distance_l1",
+      "vss_distance_l2",
+      "vss_distance_linf",
+      "vss_inner_product",
+      "vss_fvec_add",
+      "vss_fvec_sub",
+      "vss_version",
+      "vss_debug"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-vss/releases/download/v0.1.2",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-vss-v0.1.2-loadable-macos-x86_64.tar.gz",
+        "darwin-arm64": "sqlite-vss-v0.1.2-loadable-macos-aarch64.tar.gz",
+        "linux-amd64": "sqlite-vss-v0.1.2-loadable-linux-x86_64.tar.gz"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "fullname": "asg017/xsv",
+    "owner": "asg017",
+    "name": "xsv",
+    "version": "v0.2.0",
+    "homepage": "",
+    "repository": "https://github.com/asg017/sqlite-xsv",
+    "authors": [
+      "Alex Garcia"
+    ],
+    "license": "MIT",
+    "description": "Query CSVs, TSVs, and other-SVs as virtual tables.",
+    "keywords": [
+      "sqlite-xsv"
+    ],
+    "symbols": [
+      "csv_reader",
+      "csv",
+      "tsv_reader",
+      "tsv",
+      "xsv_debug",
+      "xsv_reader",
+      "xsv_version",
+      "xsv"
+    ],
+    "assets": {
+      "path": "https://github.com/asg017/sqlite-xsv/releases/download/v0.2.0",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "xsv0.dylib",
+        "linux-amd64": "xsv0.so",
+        "windows-amd64": "xsv0.dll"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "fullname": "daschr/cron",
+    "owner": "daschr",
+    "name": "cron",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-997427979",
+    "repository": "https://github.com/daschr/sqlite3_extensions",
+    "authors": [
+      "David Schramm"
+    ],
+    "license": "MIT",
+    "description": "Compares dates against cron patterns, whether they match or not.",
+    "keywords": null,
+    "symbols": [
+      "cron_match"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "cron.dylib",
+        "darwin-arm64": "cron.dylib",
+        "linux-amd64": "cron.so",
+        "windows-amd64": "cron.dll"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "fullname": "dessus/besttype",
+    "owner": "dessus",
+    "name": "besttype",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-999732640",
+    "repository": "https://github.com/nalgeon/sqlean/blob/incubator/src/besttype.c",
+    "authors": [
+      "Keith Medcalf"
+    ],
+    "license": "Public Domain",
+    "description": "Infers the type of a value.",
+    "keywords": null,
+    "symbols": [
+      "tobesttype"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "besttype.dylib",
+        "darwin-arm64": "besttype.dylib",
+        "linux-amd64": "besttype.so",
+        "windows-amd64": "besttype.dll"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "fullname": "dessus/fcmp",
+    "owner": "dessus",
+    "name": "fcmp",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-997482625",
+    "repository": "https://github.com/nalgeon/sqlean/blob/incubator/src/fcmp.c",
+    "authors": [
+      "Keith Medcalf"
+    ],
+    "license": "Public Domain",
+    "description": "Floating point numbers comparison and rounding.",
+    "keywords": null,
+    "symbols": [
+      "feq",
+      "fge",
+      "fgt",
+      "fle",
+      "flt",
+      "fne",
+      "money",
+      "roundda",
+      "rounddd",
+      "rounddt",
+      "rounddu",
+      "roundha",
+      "roundhd",
+      "roundhe",
+      "roundho",
+      "roundht",
+      "roundhu"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "fcmp.dylib",
+        "darwin-arm64": "fcmp.dylib",
+        "linux-amd64": "fcmp.so",
+        "windows-amd64": "fcmp.dll"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "fullname": "dessus/math2",
+    "owner": "dessus",
+    "name": "math2",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-999128539",
+    "repository": "https://github.com/nalgeon/sqlean/blob/incubator/src/math2.c",
+    "authors": [
+      "Keith Medcalf"
+    ],
+    "license": "Public Domain",
+    "description": "Even more math functions and bit arithmetics.",
+    "keywords": null,
+    "symbols": [
+      "bitmask",
+      "bitmask",
+      "clrbits",
+      "exponent",
+      "fabs",
+      "frac",
+      "fromhex",
+      "isclr",
+      "ismaskclr",
+      "ismaskset",
+      "isset",
+      "ldexp",
+      "m_1_pi",
+      "m_2_pi",
+      "m_2_sqrtpi",
+      "m_deg2rad",
+      "m_e",
+      "m_ln2",
+      "m_ln10",
+      "m_log2e",
+      "m_log10e",
+      "m_pi_2",
+      "m_pi_4",
+      "m_pi",
+      "m_rad2deg",
+      "m_sqrt1_2",
+      "m_sqrt2",
+      "mantissa",
+      "setbits",
+      "trunc"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "math2.dylib",
+        "darwin-arm64": "math2.dylib",
+        "linux-amd64": "math2.so",
+        "windows-amd64": "math2.dll"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "fullname": "dessus/recsize",
+    "owner": "dessus",
+    "name": "recsize",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-999732907",
+    "repository": "https://github.com/nalgeon/sqlean/blob/incubator/src/recsize.c",
+    "authors": [
+      "Keith Medcalf"
+    ],
+    "license": "Public Domain",
+    "description": "Еstimates total record size.",
+    "keywords": null,
+    "symbols": [
+      "recsize"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "recsize.dylib",
+        "darwin-arm64": "recsize.dylib",
+        "linux-amd64": "recsize.so",
+        "windows-amd64": "recsize.dll"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "fullname": "dessus/stats2",
+    "owner": "dessus",
+    "name": "stats2",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1000902666",
+    "repository": "https://github.com/nalgeon/sqlean/blob/incubator/src/stats2.c",
+    "authors": [
+      "Keith Medcalf"
+    ],
+    "license": "Public Domain",
+    "description": "Even more math statistics functions.",
+    "keywords": null,
+    "symbols": [
+      "aavg",
+      "avg",
+      "ci",
+      "covar",
+      "firstnotnull",
+      "gavg",
+      "kurt",
+      "kurtp",
+      "lastnotnull",
+      "median",
+      "range",
+      "rms",
+      "sem",
+      "skew",
+      "skewp",
+      "stdev",
+      "stdevp",
+      "var",
+      "varp"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "stats2.dylib",
+        "darwin-arm64": "stats2.dylib",
+        "linux-amd64": "stats2.so",
+        "windows-amd64": "stats2.dll"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "fullname": "dpeckett/chromaprint",
+    "owner": "dpeckett",
+    "name": "chromaprint",
+    "version": "v0.1.0",
+    "homepage": "",
+    "repository": "https://github.com/dpeckett/sqlite3-chromaprint",
+    "authors": [
+      "Damian Peckett"
+    ],
+    "license": "MPL-2.0",
+    "description": "Fingerprinting and similarity for audio files.",
+    "keywords": [],
+    "symbols": [
+      "compare_fingerprints",
+      "fingerprint"
+    ],
+    "assets": {
+      "path": "https://github.com/dpeckett/sqlite3-chromaprint/releases/download/v0.1.0",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "libsqlite3_chromaprint-darwin-x86_64.dylib",
+        "darwin-arm64": "libsqlite3_chromaprint-darwin-aarch64.dylib",
+        "linux-amd64": "libsqlite3_chromaprint-linux-x86_64.so",
+        "linux-arm64": "libsqlite3_chromaprint-linux-aarch64.so",
+        "windows-amd64": "sqlite3_chromaprint-windows-x86_64.dll"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "fullname": "florents-tselai/litejq",
+    "owner": "florents-tselai",
+    "name": "litejq",
+    "version": "v0.1.0",
+    "homepage": "",
+    "repository": "https://github.com/florents-tselai/litejq",
+    "authors": [
+      "Florents Tselai"
+    ],
+    "license": "MIT",
+    "description": "The power of jq in SQLite.",
+    "keywords": [
+      "jq",
+      "json"
+    ],
+    "symbols": [
+      "jq"
+    ],
+    "assets": {
+      "path": "https://github.com/florents-tselai/litejq/releases/download/v0.1.0",
+      "pattern": "",
+      "files": {
+        "darwin-arm64": "litejq-v0.1.0-Darwin-arm64.zip",
+        "linux-arm64": "litejq-v0.1.0-Linux-aarch64.tar.gz"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "fullname": "hanche/isodate",
+    "owner": "hanche",
+    "name": "isodate",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-998138191",
+    "repository": "https://sqlite.org/forum/forumpost/cb8923cb4db72f2e?t=h",
+    "authors": [
+      "Harald Hanche-Olsen"
+    ],
+    "license": "MIT",
+    "description": "Extracts date parts according to ISO 8601: week day, week of a year, year.",
+    "keywords": null,
+    "symbols": [
+      "iso_weekday",
+      "iso_week",
+      "iso_year",
+      "unixepoch"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "isodate.dylib",
+        "darwin-arm64": "isodate.dylib",
+        "linux-amd64": "isodate.so",
+        "windows-amd64": "isodate.dll"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "fullname": "jakethaw/pivotvtab",
+    "owner": "jakethaw",
+    "name": "pivotvtab",
+    "version": "",
+    "homepage": "",
+    "repository": "https://github.com/jakethaw/pivot_vtab",
+    "authors": [
+      "jakethaw"
+    ],
+    "license": "MIT",
+    "description": "Creates a pivot table from a regular one.",
+    "keywords": null,
+    "symbols": [
+      "pivot_vtab"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "pivotvtab.dylib",
+        "darwin-arm64": "pivotvtab.dylib",
+        "linux-amd64": "pivotvtab.so",
+        "windows-amd64": "pivotvtab.dll"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "fullname": "jakethaw/xmltojson",
+    "owner": "jakethaw",
+    "name": "xmltojson",
+    "version": "",
+    "homepage": "",
+    "repository": "https://github.com/jakethaw/xml_to_json",
+    "authors": [
+      "jakethaw"
+    ],
+    "license": "MIT",
+    "description": "Converts an XML string to the corresponding JSON string.",
+    "keywords": null,
+    "symbols": [
+      "xml_to_json"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "xmltojson.dylib",
+        "darwin-arm64": "xmltojson.dylib",
+        "linux-amd64": "xmltojson.so",
+        "windows-amd64": "xmltojson.dll"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "fullname": "jhowie/envfuncs",
+    "owner": "jhowie",
+    "name": "envfuncs",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-997423609",
+    "repository": "https://github.com/jhowie/sqlite3-ext",
+    "authors": [
+      "John Howie"
+    ],
+    "license": "BSD-3-Clause license",
+    "description": "Returns the value of the environment variable.",
+    "keywords": null,
+    "symbols": [
+      "getenv"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "envfuncs.dylib",
+        "darwin-arm64": "envfuncs.dylib",
+        "linux-amd64": "envfuncs.so",
+        "windows-amd64": "envfuncs.dll"
+      }
+    }
+  },
+  {
+    "id": 26,
+    "fullname": "jrhy/s3db",
+    "owner": "jrhy",
+    "name": "s3db",
+    "version": "v0.1.66",
+    "homepage": "",
+    "repository": "https://github.com/jrhy/s3db",
+    "authors": [
+      "Jeff Rhyason"
+    ],
+    "license": "MIT",
+    "description": "S3-compatible object store as virtual table.",
+    "keywords": null,
+    "symbols": [
+      "s3db",
+      "s3db_changes",
+      "s3db_conn",
+      "s3db_refresh",
+      "s3db_vacuum",
+      "s3db_version"
+    ],
+    "assets": {
+      "path": "https://github.com/jrhy/s3db/releases/download/v0.1.66",
+      "pattern": "",
+      "files": {
+        "linux-amd64": "s3db-v0.1.66-linux-amd64-glibc.sqlite-ext.so.gz",
+        "linux-arm64": "s3db-v0.1.66-linux-arm64-glibc.sqlite-ext.so.gz"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "fullname": "lifepillar/decimal",
+    "owner": "lifepillar",
+    "name": "decimal",
+    "version": "v0.1.3",
+    "homepage": "",
+    "repository": "https://github.com/lifepillar/sqlite3decimal",
+    "authors": [
+      "Lifepillar"
+    ],
+    "license": "BSD-2-Clause",
+    "description": "Exact decimal arithmetic.",
+    "keywords": null,
+    "symbols": [
+      "dec",
+      "decVersion",
+      "decAbs",
+      "decAdd",
+      "decAnd",
+      "decAvg",
+      "decBits",
+      "decBytes",
+      "decClass",
+      "decClearStatus",
+      "decCmp",
+      "decCoefficient",
+      "decCompare",
+      "decDiv",
+      "decDivInt",
+      "decEq",
+      "decEqual",
+      "decExp",
+      "decExponent",
+      "decFMA",
+      "decGe",
+      "decGreatest",
+      "decGt",
+      "decInvert",
+      "decIsCanonical",
+      "decIsFinite",
+      "decIsInf",
+      "decIsInfinite",
+      "decIsInt",
+      "decIsInteger",
+      "decIsLogical",
+      "decIsNaN",
+      "decIsNeg",
+      "decIsNegative",
+      "decIsNormal",
+      "decIsPos",
+      "decIsPositive",
+      "decIsSigned",
+      "decIsSubnormal",
+      "decIsZero",
+      "decLe",
+      "decLeast",
+      "decLog10",
+      "decLogB",
+      "decLn",
+      "decLt",
+      "decMantissa",
+      "decMax",
+      "decMaxMag",
+      "decMin",
+      "decMinMag",
+      "decMinus",
+      "decMul",
+      "decNe",
+      "decNextDown",
+      "decNextUp",
+      "decNotEqual",
+      "decOr",
+      "decPow",
+      "decPlus",
+      "decQuantize",
+      "decReduce",
+      "decRemainder",
+      "decRotate",
+      "decSameQuantum",
+      "decScaleB",
+      "decShift",
+      "decStatus",
+      "decStr",
+      "decSqrt",
+      "decSub",
+      "decSum",
+      "decToInt",
+      "decToInt64",
+      "decToIntegral",
+      "decTrim",
+      "decVersion",
+      "decXor"
+    ],
+    "assets": {
+      "path": "https://github.com/lifepillar/sqlite3decimal/releases/download/v0.1.3",
+      "pattern": "",
+      "files": {
+        "darwin-arm64": "libdecimal-v0.1.3-aarch64-darwin.tar.gz",
+        "freebsd-amd64": "libdecimal-v0.1.3-x86_64-freebsd.tar.gz"
+      }
+    }
+  },
+  {
+    "id": 28,
+    "fullname": "litesql/amqp",
+    "owner": "litesql",
+    "name": "amqp",
+    "version": "v0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/litesql/amqp",
+    "authors": [
+      "Walter Wanderley"
+    ],
+    "license": "MIT",
+    "description": "Publish and subscribe to AMQP 0-9-1 protocol topics.",
+    "keywords": null,
+    "symbols": [
+      "amqp_pub",
+      "amqp_sub"
+    ],
+    "assets": {
+      "path": "https://github.com/litesql/amqp/releases/download/v0.0.1",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "amqp_v0.0.1_Darwin_x86_64.tar.gz",
+        "darwin-arm64": "amqp_v0.0.1_Darwin_arm64.tar.gz",
+        "linux-amd64": "amqp_v0.0.1_Linux_x86_64.tar.gz",
+        "windows-amd64": "amqp_v0.0.1_Windows_x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 29,
+    "fullname": "litesql/ha-sync",
+    "owner": "litesql",
+    "name": "ha-sync",
+    "version": "v0.0.3",
+    "homepage": "",
+    "repository": "https://github.com/litesql/ha-sync",
+    "authors": [
+      "Walter Wanderley"
+    ],
+    "license": "Apache-2.0",
+    "description": "Sync HA database (SQLite cluster backed by NATS JetStream) with local SQLite.",
+    "keywords": null,
+    "symbols": [
+      "ha_sync"
+    ],
+    "assets": {
+      "path": "https://github.com/litesql/ha-sync/releases/download/v0.0.3",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "ha-sync_v0.0.3_Darwin_x86_64.tar.gz",
+        "darwin-arm64": "ha-sync_v0.0.3_Darwin_arm64.tar.gz",
+        "linux-amd64": "ha-sync_v0.0.3_Linux_x86_64.tar.gz",
+        "linux-arm64": "ha-sync_v0.0.3_Linux_arm64.tar.gz",
+        "windows-amd64": "ha-sync_v0.0.3_Windows_x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 30,
+    "fullname": "litesql/httpcache",
+    "owner": "litesql",
+    "name": "httpcache",
+    "version": "v0.0.7",
+    "homepage": "",
+    "repository": "https://github.com/litesql/httpcache",
+    "authors": [
+      "Walter Wanderley"
+    ],
+    "license": "MIT",
+    "description": "Make HTTP GET requests and store the responses.",
+    "keywords": null,
+    "symbols": [
+      "cache_age",
+      "cache_expired",
+      "cache_expired_ttl",
+      "cache_lifetime",
+      "cache_lifetime_shared",
+      "http_request"
+    ],
+    "assets": {
+      "path": "https://github.com/litesql/httpcache/releases/download/v0.0.7",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "httpcache_v0.0.7_Darwin_x86_64.tar.gz",
+        "darwin-arm64": "httpcache_v0.0.7_Darwin_arm64.tar.gz",
+        "linux-amd64": "httpcache_v0.0.7_Linux_x86_64.tar.gz",
+        "windows-amd64": "httpcache_v0.0.7_Windows_x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "fullname": "litesql/kafka",
+    "owner": "litesql",
+    "name": "kafka",
+    "version": "v0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/litesql/kafka",
+    "authors": [
+      "Walter Wanderley"
+    ],
+    "license": "MIT",
+    "description": "Publish and subscribe to Kafka topics.",
+    "keywords": null,
+    "symbols": [
+      "kafka_producer",
+      "kafka_consumer"
+    ],
+    "assets": {
+      "path": "https://github.com/litesql/kafka/releases/download/v0.0.1",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "kafka_v0.0.1_Darwin_x86_64.tar.gz",
+        "darwin-arm64": "kafka_v0.0.1_Darwin_arm64.tar.gz",
+        "linux-amd64": "kafka_v0.0.1_Linux_x86_64.tar.gz",
+        "windows-amd64": "kafka_v0.0.1_Windows_x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 32,
+    "fullname": "litesql/mqtt",
+    "owner": "litesql",
+    "name": "mqtt",
+    "version": "v0.0.4",
+    "homepage": "",
+    "repository": "https://github.com/litesql/mqtt",
+    "authors": [
+      "Walter Wanderley"
+    ],
+    "license": "MIT",
+    "description": "Publish and subscribe to MQTT topics.",
+    "keywords": null,
+    "symbols": [
+      "mqtt_pub",
+      "mqtt_sub"
+    ],
+    "assets": {
+      "path": "https://github.com/litesql/mqtt/releases/download/v0.0.4",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "mqtt_v0.0.4_Darwin_x86_64.tar.gz",
+        "darwin-arm64": "mqtt_v0.0.4_Darwin_arm64.tar.gz",
+        "linux-amd64": "mqtt_v0.0.4_Linux_x86_64.tar.gz",
+        "windows-amd64": "mqtt_v0.0.4_Windows_x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "fullname": "litesql/nats",
+    "owner": "litesql",
+    "name": "nats",
+    "version": "v0.0.1",
+    "homepage": "",
+    "repository": "https://github.com/litesql/nats",
+    "authors": [
+      "Walter Wanderley"
+    ],
+    "license": "MIT",
+    "description": "Publish and subscribe to NATS topics.",
+    "keywords": null,
+    "symbols": [
+      "nats_pub",
+      "nats_sub"
+    ],
+    "assets": {
+      "path": "https://github.com/litesql/nats/releases/download/v0.0.1",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "nats_v0.0.1_Darwin_x86_64.tar.gz",
+        "darwin-arm64": "nats_v0.0.1_Darwin_arm64.tar.gz",
+        "linux-amd64": "nats_v0.0.1_Linux_x86_64.tar.gz",
+        "windows-amd64": "nats_v0.0.1_Windows_x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 34,
+    "fullname": "little-brother/exec",
+    "owner": "little-brother",
+    "name": "exec",
+    "version": "1.0.0",
+    "homepage": "https://github.com/little-brother/sqlite-extensions/blob/main/exec/README.md",
+    "repository": "https://github.com/little-brother/sqlite-extensions",
+    "authors": [
+      "little-brother"
+    ],
+    "license": "GPL-2.0",
+    "description": "Execute a shell command and return console output as a result.",
+    "keywords": null,
+    "symbols": [
+      "exec"
+    ],
+    "assets": {
+      "path": "https://github.com/little-brother/sqlite-extensions/releases/download/1.0.0",
+      "pattern": "",
+      "files": {
+        "windows-amd64": "exec-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "fullname": "little-brother/inja",
+    "owner": "little-brother",
+    "name": "inja",
+    "version": "1.0.0",
+    "homepage": "https://github.com/little-brother/sqlite-extensions/blob/main/inja/README.md",
+    "repository": "https://github.com/little-brother/sqlite-extensions",
+    "authors": [
+      "little-brother"
+    ],
+    "license": "GPL-2.0",
+    "description": "Generate output using Jinja-like templates.",
+    "keywords": null,
+    "symbols": [
+      "inja"
+    ],
+    "assets": {
+      "path": "https://github.com/little-brother/sqlite-extensions/releases/download/1.0.0",
+      "pattern": "",
+      "files": {
+        "windows-amd64": "inja-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 36,
+    "fullname": "little-brother/odbc",
+    "owner": "little-brother",
+    "name": "odbc",
+    "version": "1.0.0",
+    "homepage": "https://github.com/little-brother/sqlite-extensions/blob/main/odbc/README.md",
+    "repository": "https://github.com/little-brother/sqlite-extensions",
+    "authors": [
+      "little-brother"
+    ],
+    "license": "GPL-2.0",
+    "description": "Work with any database via ODBC interface.",
+    "keywords": null,
+    "symbols": [
+      "odbc_dsn",
+      "odbc_query",
+      "odbc_read",
+      "odbc_write"
+    ],
+    "assets": {
+      "path": "https://github.com/little-brother/sqlite-extensions/releases/download/1.0.0",
+      "pattern": "",
+      "files": {
+        "windows-amd64": "odbc-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "fullname": "little-brother/xml",
+    "owner": "little-brother",
+    "name": "xml",
+    "version": "1.0.0",
+    "homepage": "https://github.com/little-brother/sqlite-extensions/blob/main/xml/README.md",
+    "repository": "https://github.com/little-brother/sqlite-extensions",
+    "authors": [
+      "little-brother"
+    ],
+    "license": "GPL-2.0",
+    "description": "Work with XML documents stored as text.",
+    "keywords": [
+      "xpath"
+    ],
+    "symbols": [
+      "xml_append",
+      "xml_each",
+      "xml_extract",
+      "xml_remove",
+      "xml_update",
+      "xml_valid"
+    ],
+    "assets": {
+      "path": "https://github.com/little-brother/sqlite-extensions/releases/download/1.0.0",
+      "pattern": "",
+      "files": {
+        "windows-amd64": "xml-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 38,
+    "fullname": "mlin/genomicsqlite",
+    "owner": "mlin",
+    "name": "genomicsqlite",
+    "version": "v0.9.4",
+    "homepage": "",
+    "repository": "https://github.com/mlin/genomicsqlite",
+    "authors": [
+      "Mike Lin"
+    ],
+    "license": "Apache-2.0",
+    "description": "Genome bioinformatics.",
+    "keywords": [
+      "bioinformatics",
+      "dna",
+      "genomics",
+      "libgenomicsqlite",
+      "nucleotides",
+      "sequencing"
+    ],
+    "symbols": [
+      "dna_revcomp",
+      "dna_twobit",
+      "genomic_range_index_levels",
+      "genomic_range_rowids",
+      "nucleotides_twobit",
+      "parse_genomic_range_begin",
+      "parse_genomic_range_end",
+      "parse_genomic_range_sequence",
+      "twobit_dna",
+      "twobit_length",
+      "twobit_rna"
+    ],
+    "assets": {
+      "path": "https://github.com/mlin/genomicsqlite/releases/download/v0.9.4",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "genomicsqlite-v0.9.4.zip",
+        "linux-amd64": "genomicsqlite-v0.9.4.zip"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "fullname": "mrwilson/classifier",
+    "owner": "mrwilson",
+    "name": "classifier",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1001239676",
+    "repository": "https://github.com/mrwilson/squib",
+    "authors": [
+      "Alex Wilson"
+    ],
+    "license": "MIT",
+    "description": "Binary classifier via logistic regression.",
+    "keywords": null,
+    "symbols": [
+      "classify",
+      "train"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "classifier.dylib",
+        "darwin-arm64": "classifier.dylib",
+        "linux-amd64": "classifier.so",
+        "windows-amd64": "classifier.dll"
+      }
+    }
+  },
+  {
+    "id": 40,
+    "fullname": "mrwilson/pearson",
+    "owner": "mrwilson",
+    "name": "pearson",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-997417836",
+    "repository": "https://github.com/mrwilson/squib",
+    "authors": [
+      "Alex Wilson"
+    ],
+    "license": "MIT",
+    "description": "Returns Pearson correlation coefficient between two data sets.",
+    "keywords": null,
+    "symbols": [
+      "pearson"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "pearson.dylib",
+        "darwin-arm64": "pearson.dylib",
+        "linux-amd64": "pearson.so",
+        "windows-amd64": "pearson.dll"
+      }
+    }
+  },
+  {
+    "id": 41,
+    "fullname": "mycelial/mycelite",
+    "owner": "mycelial",
+    "name": "mycelite",
+    "version": "v0.3.2",
+    "homepage": "",
+    "repository": "https://github.com/mycelial/mycelite",
+    "authors": [
+      "Dmitriy Mazurin"
+    ],
+    "license": "Apache-2.0",
+    "description": "Synchronize changes from one instance of SQLite to another.",
+    "keywords": [
+      "libmycelite",
+      "synchronization"
+    ],
+    "symbols": [
+      "mycelite_config"
+    ],
+    "assets": {
+      "path": "https://github.com/mycelial/mycelite/releases/download/v0.3.2",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "x86_64-apple-darwin.tgz",
+        "darwin-arm64": "aarch64-apple-darwin.tgz",
+        "linux-amd64": "x86_64-unknown-linux-gnu.tgz",
+        "linux-arm64": "arm-unknown-linux-gnueabihf.tgz",
+        "windows-amd64": "x86_64-pc-windows-gnu.zip"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "fullname": "nalgeon/array",
+    "owner": "nalgeon",
+    "name": "array",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1004109889",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov"
+    ],
+    "license": "MIT",
+    "description": "One-dimensional arrays (integers, real numbers and strings).",
+    "keywords": [
+      "sqlean-array"
+    ],
+    "symbols": [
+      "array_agg",
+      "array_append",
+      "array_at",
+      "array_clear",
+      "array_concat",
+      "array_contains",
+      "array_index",
+      "array_insert",
+      "array_length",
+      "array_remove_at",
+      "array_remove",
+      "array_slice",
+      "array",
+      "intarray",
+      "realarray",
+      "textarray",
+      "unnest"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "array.dylib",
+        "darwin-arm64": "array.dylib",
+        "linux-amd64": "array.so",
+        "windows-amd64": "array.dll"
+      }
+    }
+  },
+  {
+    "id": 43,
+    "fullname": "nalgeon/crypto",
+    "owner": "nalgeon",
+    "name": "crypto",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/crypto.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov"
+    ],
+    "license": "MIT",
+    "description": "Hashing, encoding and decoding data.",
+    "keywords": [
+      "ascii85",
+      "base32",
+      "base64",
+      "base85",
+      "blake3",
+      "decode",
+      "digest",
+      "encode",
+      "hex",
+      "md5",
+      "sha-1",
+      "sha-256",
+      "sha-384",
+      "sha-512",
+      "sqlean-crypto",
+      "url encode",
+      "xxhash",
+      "xxh3",
+      "xxhash32",
+      "xxhash64",
+      "xxh3-64",
+      "xxh3-128"
+    ],
+    "symbols": [
+      "crypto_blake3",
+      "crypto_md5",
+      "crypto_sha1",
+      "crypto_sha256",
+      "crypto_sha384",
+      "crypto_sha512",
+      "crypto_encode",
+      "crypto_decode",
+      "crypto_xxh32",
+      "crypto_xxh64",
+      "crypto_xxh3_64",
+      "crypto_xxh3_128"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "crypto*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 44,
+    "fullname": "nalgeon/define",
+    "owner": "nalgeon",
+    "name": "define",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/define.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov",
+      "0x09",
+      "Richard Hipp"
+    ],
+    "license": "MIT",
+    "description": "User-defined functions and dynamic SQL.",
+    "keywords": [
+      "sqlean-define"
+    ],
+    "symbols": [
+      "define_free",
+      "define",
+      "eval",
+      "sqlean_define",
+      "undefine"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "define*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 45,
+    "fullname": "nalgeon/fileio",
+    "owner": "nalgeon",
+    "name": "fileio",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/fileio.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov",
+      "Richard Hipp"
+    ],
+    "license": "MIT",
+    "description": "Read and write files.",
+    "keywords": [
+      "append file",
+      "create directory",
+      "list files",
+      "sqlean-fileio",
+      "symlink"
+    ],
+    "symbols": [
+      "fileio_append",
+      "fileio_ls",
+      "fileio_mkdir",
+      "fileio_read",
+      "fileio_scan",
+      "fileio_symlink",
+      "fileio_write",
+      "lsdir",
+      "lsmode",
+      "mkdir",
+      "readfile",
+      "symlink",
+      "writefile"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "fileio*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 46,
+    "fullname": "nalgeon/fuzzy",
+    "owner": "nalgeon",
+    "name": "fuzzy",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/fuzzy.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov",
+      "Ross Bayer",
+      "Richard Hipp"
+    ],
+    "license": "MIT",
+    "description": "Fuzzy string matching, phonetics and transliteration.",
+    "keywords": [
+      "caverphone",
+      "damerau-levenshtein",
+      "edit distance",
+      "hamming",
+      "jaro-winkler",
+      "levenshtein",
+      "optimal string alignment",
+      "osa",
+      "refined soundex",
+      "soundex",
+      "spellcheck phonetic code",
+      "sqlean-fuzzy",
+      "translit"
+    ],
+    "symbols": [
+      "fuzzy_caver",
+      "fuzzy_damlev",
+      "fuzzy_editdist",
+      "fuzzy_hamming",
+      "fuzzy_jarowin",
+      "fuzzy_leven",
+      "fuzzy_osadist",
+      "fuzzy_phonetic",
+      "fuzzy_rsoundex",
+      "fuzzy_soundex",
+      "fuzzy_translit"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "fuzzy*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "fullname": "nalgeon/ipaddr",
+    "owner": "nalgeon",
+    "name": "ipaddr",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/ipaddr.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Vincent Bernat"
+    ],
+    "license": "MIT",
+    "description": "IP address manipulation.",
+    "keywords": [
+      "host",
+      "network",
+      "sqlean-ipaddr",
+      "subnet"
+    ],
+    "symbols": [
+      "ipcontains",
+      "ipfamily",
+      "iphost",
+      "ipmasklen",
+      "ipnetwork"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "ipaddr*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "fullname": "nalgeon/math",
+    "owner": "nalgeon",
+    "name": "math",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/math.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "MIT",
+    "description": "Common math functions.",
+    "keywords": [
+      "angular measures",
+      "arithmetic",
+      "hyperbolic",
+      "logarithmic",
+      "rounding",
+      "sqlean-math",
+      "trigonometric"
+    ],
+    "symbols": [
+      "acos",
+      "acosh",
+      "asin",
+      "asinh",
+      "atan",
+      "atan2",
+      "atanh",
+      "ceil",
+      "cos",
+      "cosh",
+      "degrees",
+      "floor",
+      "ln",
+      "log",
+      "log2",
+      "log10",
+      "mod",
+      "pi",
+      "pow",
+      "radians",
+      "sin",
+      "sinh",
+      "sqrt",
+      "tan",
+      "tanh",
+      "trunc"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "math*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "fullname": "nalgeon/regexp",
+    "owner": "nalgeon",
+    "name": "regexp",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/regexp.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov"
+    ],
+    "license": "MIT",
+    "description": "Search and replace with regular expressions.",
+    "keywords": [
+      "backreference",
+      "capture",
+      "group",
+      "matching",
+      "pattern",
+      "pcre2",
+      "sqlean-regexp",
+      "substring",
+      "unicode"
+    ],
+    "symbols": [
+      "regexp_capture",
+      "regexp_like",
+      "regexp_replace",
+      "regexp_substr",
+      "regexp"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "regexp*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 50,
+    "fullname": "nalgeon/rotate",
+    "owner": "nalgeon",
+    "name": "rotate",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007500659",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Richard Hipp",
+      "CompuRoot"
+    ],
+    "license": "BSD 0-Clause License",
+    "description": "String obfuscation algorithms ROT13 and ROT47.",
+    "keywords": null,
+    "symbols": [
+      "rot13",
+      "rot47"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "rotate.dylib",
+        "darwin-arm64": "rotate.dylib",
+        "linux-amd64": "rotate.so",
+        "windows-amd64": "rotate.dll"
+      }
+    }
+  },
+  {
+    "id": 51,
+    "fullname": "nalgeon/sqlean",
+    "owner": "nalgeon",
+    "name": "sqlean",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov"
+    ],
+    "license": "MIT",
+    "description": "The ultimate set of SQLite extensions.",
+    "keywords": [
+      "sqlean"
+    ],
+    "symbols": null,
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 52,
+    "fullname": "nalgeon/stats",
+    "owner": "nalgeon",
+    "name": "stats",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/stats.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov",
+      "Richard Hipp",
+      "Liam Healy"
+    ],
+    "license": "MIT",
+    "description": "Mathematical statistics.",
+    "keywords": [
+      "generate series",
+      "median",
+      "percentile",
+      "population",
+      "sample",
+      "sqlean-stats",
+      "standard deviation",
+      "stddev",
+      "variance"
+    ],
+    "symbols": [
+      "stats_median",
+      "stats_p25",
+      "stats_p75",
+      "stats_p90",
+      "stats_p95",
+      "stats_p99",
+      "stats_perc",
+      "stats_seq",
+      "stats_stddev_pop",
+      "stats_stddev_samp",
+      "stats_stddev",
+      "stats_var_pop",
+      "stats_var_samp",
+      "stats_var"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "stats*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 53,
+    "fullname": "nalgeon/text",
+    "owner": "nalgeon",
+    "name": "text",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/text.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov"
+    ],
+    "license": "MIT",
+    "description": "Unicode-aware string and text processing.",
+    "keywords": [
+      "bit",
+      "case",
+      "concat",
+      "contains",
+      "count",
+      "ends with",
+      "index",
+      "join",
+      "left",
+      "length",
+      "like",
+      "lower",
+      "match",
+      "nocase collation",
+      "padding",
+      "position",
+      "prefix",
+      "repeat",
+      "replace",
+      "reverse",
+      "right",
+      "search",
+      "size",
+      "slice",
+      "split part",
+      "sqlean-text",
+      "starts with",
+      "substring",
+      "suffix",
+      "title",
+      "translate",
+      "trim",
+      "unicode",
+      "upper"
+    ],
+    "symbols": [
+      "text_bitsize",
+      "text_concat",
+      "text_contains",
+      "text_count",
+      "text_has_prefix",
+      "text_has_suffix",
+      "text_index",
+      "text_join",
+      "text_last_index",
+      "text_left",
+      "text_length",
+      "text_like",
+      "text_lower",
+      "text_lpad",
+      "text_ltrim",
+      "text_nocase",
+      "text_repeat",
+      "text_replace",
+      "text_reverse",
+      "text_right",
+      "text_rpad",
+      "text_rtrim",
+      "text_size",
+      "text_slice",
+      "text_split",
+      "text_substring",
+      "text_title",
+      "text_translate",
+      "text_trim",
+      "text_upper"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "text*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 54,
+    "fullname": "nalgeon/time",
+    "owner": "nalgeon",
+    "name": "time",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/time.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov"
+    ],
+    "license": "MIT",
+    "description": "High-precision date/time with a structured API and a rich set of functions.",
+    "keywords": [
+      "add",
+      "after",
+      "before",
+      "century",
+      "compare",
+      "datetime",
+      "day",
+      "decade",
+      "duration",
+      "epoch",
+      "extract",
+      "format",
+      "hour",
+      "iso 8601",
+      "microsecond",
+      "millennium",
+      "millisecond",
+      "minute",
+      "month",
+      "nanosecond",
+      "parse",
+      "quarter",
+      "round",
+      "second",
+      "since",
+      "sqlean-time",
+      "subtract",
+      "time",
+      "timestamp",
+      "timezone",
+      "truncate",
+      "unix",
+      "until",
+      "week",
+      "year"
+    ],
+    "symbols": [
+      "dur_h",
+      "dur_m",
+      "dur_ms",
+      "dur_ns",
+      "dur_s",
+      "dur_us",
+      "time_add_date",
+      "time_add",
+      "time_after",
+      "time_before",
+      "time_compare",
+      "time_date",
+      "time_equal",
+      "time_fmt_date",
+      "time_fmt_datetime",
+      "time_fmt_iso",
+      "time_fmt_time",
+      "time_get_day",
+      "time_get_hour",
+      "time_get_isoweek",
+      "time_get_isoyear",
+      "time_get_minute",
+      "time_get_month",
+      "time_get_nano",
+      "time_get_second",
+      "time_get_weekday",
+      "time_get_year",
+      "time_get_yearday",
+      "time_get",
+      "time_micro",
+      "time_milli",
+      "time_nano",
+      "time_now",
+      "time_parse",
+      "time_round",
+      "time_since",
+      "time_sub",
+      "time_to_micro",
+      "time_to_milli",
+      "time_to_nano",
+      "time_to_unix",
+      "time_trunc",
+      "time_trunc",
+      "time_unix",
+      "time_until"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "time*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 55,
+    "fullname": "nalgeon/unicode",
+    "owner": "nalgeon",
+    "name": "unicode",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/unicode.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov"
+    ],
+    "license": "MIT",
+    "description": "Case-related text processing for Unicode strings.",
+    "keywords": [
+      "sqlean-unicode"
+    ],
+    "symbols": [
+      "like",
+      "lower",
+      "unaccent",
+      "upper"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "unicode*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "fullname": "nalgeon/uuid",
+    "owner": "nalgeon",
+    "name": "uuid",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/uuid.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Anton Zhiyanov",
+      "Richard Hipp",
+      "Nguyễn Hoàng Đức"
+    ],
+    "license": "MIT",
+    "description": "Generating universally unique identifiers (UUIDs).",
+    "keywords": [
+      "sqlean-uuid",
+      "uuidv4",
+      "uuidv7"
+    ],
+    "symbols": [
+      "uuid_blob",
+      "uuid_str",
+      "uuid4",
+      "uuid7_timestamp_ms",
+      "uuid7"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "uuid*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 57,
+    "fullname": "nalgeon/vsv",
+    "owner": "nalgeon",
+    "name": "vsv",
+    "version": "0.28.0",
+    "homepage": "https://github.com/nalgeon/sqlean/blob/main/docs/vsv.md",
+    "repository": "https://github.com/nalgeon/sqlean",
+    "authors": [
+      "Keith Medcalf",
+      "Anton Zhiyanov"
+    ],
+    "license": "MIT",
+    "description": "Virtual table for working directly with CSV files.",
+    "keywords": [
+      "columns",
+      "dataset",
+      "header",
+      "import",
+      "schema",
+      "separator",
+      "sqlean-vsv"
+    ],
+    "symbols": [
+      "vsv"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/0.28.0",
+      "pattern": "vsv*",
+      "files": {
+        "darwin-amd64": "sqlean-macos-x64.zip",
+        "darwin-arm64": "sqlean-macos-arm64.zip",
+        "linux-amd64": "sqlean-linux-x64.zip",
+        "linux-arm64": "sqlean-linux-arm64.zip",
+        "windows-amd64": "sqlean-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "fullname": "nyurik/compressions",
+    "owner": "nyurik",
+    "name": "compressions",
+    "version": "v0.3.2",
+    "homepage": "",
+    "repository": "https://github.com/nyurik/sqlite-compressions",
+    "authors": [
+      "Yuri Astrakhan"
+    ],
+    "license": "MIT",
+    "description": "Compression, decompression, testing, diffing and patching functions for SQLite: gzip, brotli, bsdiff, ...",
+    "keywords": [
+      "sqlite-compressions",
+      "libsqlite_compressions",
+      "brotli",
+      "bsdiff",
+      "bzip2",
+      "gzip"
+    ],
+    "symbols": [
+      "brotli",
+      "brotli_decode",
+      "brotli_test",
+      "bsdiff4",
+      "bspatch4",
+      "bsdiffraw",
+      "bspatchraw",
+      "bzip2",
+      "bzip2_decode",
+      "bzip2_test",
+      "gzip",
+      "gzip_decode",
+      "gzip_test"
+    ],
+    "assets": {
+      "path": "https://github.com/nyurik/sqlite-compressions/releases/download/v0.3.2",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-compressions-x86_64-apple-darwin.tar.gz",
+        "darwin-arm64": "sqlite-compressions-aarch64-apple-darwin.tar.gz",
+        "linux-amd64": "sqlite-compressions-x86_64-unknown-linux-gnu.tar.gz",
+        "linux-arm64": "sqlite-compressions-aarch64-unknown-linux-gnu.tar.gz",
+        "windows-amd64": "sqlite-compressions-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "fullname": "nyurik/hashes",
+    "owner": "nyurik",
+    "name": "hashes",
+    "version": "v0.10.0",
+    "homepage": "",
+    "repository": "https://github.com/nyurik/sqlite-hashes",
+    "authors": [
+      "Yuri Astrakhan"
+    ],
+    "license": "MIT",
+    "description": "MD5, SHA1, SHA224, SHA256, FNV-1a, xxHash and other hash funcs, with composition and aggregation.",
+    "keywords": [
+      "sqlite-hashes",
+      "libsqlite_hashes",
+      "aggregate",
+      "fnv-1a",
+      "md5",
+      "sha1",
+      "sha224",
+      "sha256",
+      "sha384",
+      "sha512",
+      "xxhash"
+    ],
+    "symbols": [
+      "fnv1a",
+      "fnv1a_concat",
+      "fnv1a_concat_hex",
+      "fnv1a_hex",
+      "md5",
+      "md5_concat",
+      "md5_concat_hex",
+      "md5_hex",
+      "sha1",
+      "sha1_concat",
+      "sha1_concat_hex",
+      "sha1_hex",
+      "sha224",
+      "sha224_concat",
+      "sha224_concat_hex",
+      "sha224_hex",
+      "sha256",
+      "sha256_concat",
+      "sha256_concat_hex",
+      "sha256_hex",
+      "sha384",
+      "sha384_concat",
+      "sha384_concat_hex",
+      "sha384_hex",
+      "sha512",
+      "sha512_concat",
+      "sha512_concat_hex",
+      "sha512_hex",
+      "xxh32",
+      "xxh32_concat",
+      "xxh32_concat_hex",
+      "xxh32_hex",
+      "xxh64",
+      "xxh64_concat",
+      "xxh64_concat_hex",
+      "xxh64_hex",
+      "xxh3_64",
+      "xxh3_64_concat",
+      "xxh3_64_concat_hex",
+      "xxh3_64_hex",
+      "xxh3_128",
+      "xxh3_128_concat",
+      "xxh3_128_concat_hex",
+      "xxh3_128_hex"
+    ],
+    "assets": {
+      "path": "https://github.com/nyurik/sqlite-hashes/releases/download/v0.10.0",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "sqlite-hashes-x86_64-apple-darwin.tar.gz",
+        "darwin-arm64": "sqlite-hashes-aarch64-apple-darwin.tar.gz",
+        "linux-amd64": "sqlite-hashes-x86_64-unknown-linux-gnu.tar.gz",
+        "linux-arm64": "sqlite-hashes-aarch64-unknown-linux-gnu.tar.gz",
+        "windows-amd64": "sqlite-hashes-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  },
+  {
+    "id": 60,
+    "fullname": "orbitinghail/graft",
+    "owner": "orbitinghail",
+    "name": "graft",
+    "version": "v0.1.4",
+    "homepage": "",
+    "repository": "https://github.com/orbitinghail/graft",
+    "authors": [
+      "Carl Sverre"
+    ],
+    "license": "MIT OR Apache-2.0",
+    "description": "Strongly consistent replication to and from object storage.",
+    "keywords": null,
+    "symbols": null,
+    "assets": {
+      "path": "https://github.com/orbitinghail/graft/releases/download/v0.1.4",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "libgraft-macos-x86_64.tar.gz",
+        "darwin-arm64": "libgraft-macos-aarch64.tar.gz",
+        "linux-amd64": "libgraft-linux-x86_64.tar.gz",
+        "linux-arm64": "libgraft-linux-aarch64.tar.gz",
+        "windows-amd64": "libgraft-windows-x86_64.zip",
+        "windows-arm64": "libgraft-windows-aarch64.zip"
+      }
+    }
+  },
+  {
+    "id": 61,
+    "fullname": "shawnw/bloom",
+    "owner": "shawnw",
+    "name": "bloom",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1002267134",
+    "repository": "https://github.com/shawnw/useful_sqlite_extensions",
+    "authors": [
+      "Shawn Wagner"
+    ],
+    "license": "MIT",
+    "description": "Bloom filter — a fast index to tell if a value is probably in a table or certainly isn't.",
+    "keywords": null,
+    "symbols": [
+      "bloom_filter"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "bloom.dylib",
+        "darwin-arm64": "bloom.dylib",
+        "linux-amd64": "bloom.so",
+        "windows-amd64": "bloom.dll"
+      }
+    }
+  },
+  {
+    "id": 62,
+    "fullname": "shawnw/stats3",
+    "owner": "shawnw",
+    "name": "stats3",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1002703581",
+    "repository": "https://github.com/shawnw/useful_sqlite_extensions",
+    "authors": [
+      "Shawn Wagner"
+    ],
+    "license": "MIT",
+    "description": "Even more math statistics functions.",
+    "keywords": null,
+    "symbols": [
+      "corr",
+      "covar_pop",
+      "covar_samp",
+      "geo_mean",
+      "harm_mean",
+      "iqr",
+      "median",
+      "mode",
+      "product",
+      "q1",
+      "q3"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "stats3.dylib",
+        "darwin-arm64": "stats3.dylib",
+        "linux-amd64": "stats3.so",
+        "windows-amd64": "stats3.dll"
+      }
+    }
+  },
+  {
+    "id": 63,
+    "fullname": "sqlite/amatch",
+    "owner": "sqlite",
+    "name": "amatch",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/amatch.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Find approximate matches for an input string.",
+    "keywords": null,
+    "symbols": [
+      "approximate_match"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "amatch*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 64,
+    "fullname": "sqlite/base64",
+    "owner": "sqlite",
+    "name": "base64",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/base64.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Encode and decode binary blobs to base64 text encoding.",
+    "keywords": null,
+    "symbols": [
+      "base64"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "base64*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 65,
+    "fullname": "sqlite/base85",
+    "owner": "sqlite",
+    "name": "base85",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/base85.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Encode and decode binary blobs to base85 text encoding.",
+    "keywords": null,
+    "symbols": [
+      "base85",
+      "is_base85"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "base85*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 66,
+    "fullname": "sqlite/blobio",
+    "owner": "sqlite",
+    "name": "blobio",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/blobio.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Read or write part of a blob using the incremental blob I/O mechanism.",
+    "keywords": null,
+    "symbols": [
+      "readblob",
+      "writeblob"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "blobio*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 67,
+    "fullname": "sqlite/btreeinfo",
+    "owner": "sqlite",
+    "name": "btreeinfo",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/btreeinfo.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Show information about all btrees (tables and indexes) in a database file.",
+    "keywords": null,
+    "symbols": [
+      "sqlite_btreeinfo"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "btreeinfo*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 68,
+    "fullname": "sqlite/carray",
+    "owner": "sqlite",
+    "name": "carray",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/carray.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Table-valued-function that returns the values in a C-language array.",
+    "keywords": null,
+    "symbols": [
+      "carray"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "carray*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 69,
+    "fullname": "sqlite/closure",
+    "owner": "sqlite",
+    "name": "closure",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/closure.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Navigate hierarchic tables with parent/child relationships.",
+    "keywords": null,
+    "symbols": [
+      "transitive_closure"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "closure*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 70,
+    "fullname": "sqlite/completion",
+    "owner": "sqlite",
+    "name": "completion",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/completion.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Suggest completions for a partial input string.",
+    "keywords": null,
+    "symbols": [
+      "completion"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "completion*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "fullname": "sqlite/compress",
+    "owner": "sqlite",
+    "name": "compress",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/compress.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Compress / uncompress data using zlib.",
+    "keywords": null,
+    "symbols": [
+      "compress",
+      "uncompress"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "compress*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 72,
+    "fullname": "sqlite/csv",
+    "owner": "sqlite",
+    "name": "csv",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/csv.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Read CSV files.",
+    "keywords": null,
+    "symbols": [
+      "csv"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "csv*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "fullname": "sqlite/dbdump",
+    "owner": "sqlite",
+    "name": "dbdump",
+    "version": "3.36.0",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1006791300",
+    "repository": "https://sqlite.org/src/file/ext/misc/",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Export database or table structure and contents into a single UTF-8 string.",
+    "keywords": null,
+    "symbols": [
+      "dbdump"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "dbdump.dylib",
+        "darwin-arm64": "dbdump.dylib",
+        "linux-amd64": "dbdump.so",
+        "windows-amd64": "dbdump.dll"
+      }
+    }
+  },
+  {
+    "id": 74,
+    "fullname": "sqlite/decimal",
+    "owner": "sqlite",
+    "name": "decimal",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/decimal.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Arbitrary-precision decimal arithmetic on numbers stored as text strings.",
+    "keywords": null,
+    "symbols": [
+      "decimal_add",
+      "decimal_mul",
+      "decimal_sub"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "decimal*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 75,
+    "fullname": "sqlite/eval",
+    "owner": "sqlite",
+    "name": "eval",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/eval.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Execute arbitrary SQL from an input string.",
+    "keywords": null,
+    "symbols": [
+      "eval"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "eval*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 76,
+    "fullname": "sqlite/explain",
+    "owner": "sqlite",
+    "name": "explain",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/explain.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Show bytecode for an SQL statement.",
+    "keywords": null,
+    "symbols": [
+      "explain"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "explain*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 77,
+    "fullname": "sqlite/fileio",
+    "owner": "sqlite",
+    "name": "fileio",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/fileio.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Read and write files from SQL.",
+    "keywords": null,
+    "symbols": [
+      "fsdir",
+      "readfile",
+      "writefile"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "fileio*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip"
+      }
+    }
+  },
+  {
+    "id": 78,
+    "fullname": "sqlite/fossildelta",
+    "owner": "sqlite",
+    "name": "fossildelta",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/fossildelta.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Read and write Fossil deltas.",
+    "keywords": null,
+    "symbols": [
+      "delta_apply",
+      "delta_create",
+      "delta_output_size",
+      "delta_parse"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "fossildelta*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "fullname": "sqlite/fuzzer",
+    "owner": "sqlite",
+    "name": "fuzzer",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/fuzzer.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Generate variations on an input word at increasing edit distances from the original.",
+    "keywords": null,
+    "symbols": [
+      "fuzzer"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "fuzzer*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 80,
+    "fullname": "sqlite/ieee754",
+    "owner": "sqlite",
+    "name": "ieee754",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/ieee754.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Convert a floating-point number F between its binary64 representation and the M×2^E format.",
+    "keywords": null,
+    "symbols": [
+      "ieee754_exponent",
+      "ieee754_from_blob",
+      "ieee754_mantissa",
+      "ieee754_to_blob",
+      "ieee754"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "ieee754*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "fullname": "sqlite/json1",
+    "owner": "sqlite",
+    "name": "json1",
+    "version": "3.36.0",
+    "homepage": "https://sqlite.org/json1.html",
+    "repository": "https://sqlite.org/src/dir",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "JSON functions and operators.",
+    "keywords": null,
+    "symbols": [
+      "json_array_length",
+      "json_array",
+      "json_each",
+      "json_error_position",
+      "json_extract",
+      "json_group_array",
+      "json_group_object",
+      "json_insert",
+      "json_object",
+      "json_patch",
+      "json_quote",
+      "json_remove",
+      "json_replace",
+      "json_set",
+      "json_tree",
+      "json_type",
+      "json_valid",
+      "json"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "json1.dylib",
+        "darwin-arm64": "json1.dylib",
+        "linux-amd64": "json1.so",
+        "windows-amd64": "json1.dll"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "fullname": "sqlite/memstat",
+    "owner": "sqlite",
+    "name": "memstat",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/memstat.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "List performance characteristics of the current SQLite instance.",
+    "keywords": null,
+    "symbols": [
+      "sqlite_memstat"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "memstat*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 83,
+    "fullname": "sqlite/nextchar",
+    "owner": "sqlite",
+    "name": "nextchar",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/nextchar.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Finds all valid next characters for an input string given the vocabulary.",
+    "keywords": null,
+    "symbols": [
+      "next_char"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "nextchar*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 84,
+    "fullname": "sqlite/percentile",
+    "owner": "sqlite",
+    "name": "percentile",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/percentile.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Calculates a specific percentile for a data series.",
+    "keywords": null,
+    "symbols": [
+      "percentile"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "percentile*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 85,
+    "fullname": "sqlite/prefixes",
+    "owner": "sqlite",
+    "name": "prefixes",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/prefixes.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Generate all prefixes of the input string.",
+    "keywords": null,
+    "symbols": [
+      "prefixes"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "prefixes*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 86,
+    "fullname": "sqlite/randomjson",
+    "owner": "sqlite",
+    "name": "randomjson",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/randomjson.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Generate pseudo-random JSON or JSON5.",
+    "keywords": null,
+    "symbols": [
+      "random_json",
+      "random_json5"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "randomjson*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 87,
+    "fullname": "sqlite/regexp",
+    "owner": "sqlite",
+    "name": "regexp",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/regexp.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Regular-expression matcher with limited syntax.",
+    "keywords": null,
+    "symbols": [
+      "regexp"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "regexp*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 88,
+    "fullname": "sqlite/remember",
+    "owner": "sqlite",
+    "name": "remember",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/remember.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Memorize integer values in a C-language variable.",
+    "keywords": null,
+    "symbols": [
+      "remember"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "remember*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 89,
+    "fullname": "sqlite/rot13",
+    "owner": "sqlite",
+    "name": "rot13",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/rot13.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Encode text using ROT13 cipher.",
+    "keywords": null,
+    "symbols": [
+      "rot13"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "rot13*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 90,
+    "fullname": "sqlite/series",
+    "owner": "sqlite",
+    "name": "series",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/series.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Generate a sequence of integer values within a given range.",
+    "keywords": null,
+    "symbols": [
+      "generate_series"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "series*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 91,
+    "fullname": "sqlite/sha1",
+    "owner": "sqlite",
+    "name": "sha1",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/sha1.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Compute SHA1 hash for a string or blob.",
+    "keywords": null,
+    "symbols": [
+      "sha1",
+      "sha1_query"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "sha1*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 92,
+    "fullname": "sqlite/sha3",
+    "owner": "sqlite",
+    "name": "sha3",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/shathree.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Compute SHA3 hash for a string or blob.",
+    "keywords": [
+      "shathree"
+    ],
+    "symbols": [
+      "sha3",
+      "sha3_query"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "shathree*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 93,
+    "fullname": "sqlite/spellfix",
+    "owner": "sqlite",
+    "name": "spellfix",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/spellfix.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Search a large vocabulary for close matches.",
+    "keywords": null,
+    "symbols": [
+      "spellfix1"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "spellfix*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 94,
+    "fullname": "sqlite/sqlar",
+    "owner": "sqlite",
+    "name": "sqlar",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/sqlar.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Compress / uncompress data with zlib using the SQL Archive approach.",
+    "keywords": null,
+    "symbols": [
+      "sqlar_compress",
+      "sqlar_uncompress"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "sqlar*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 95,
+    "fullname": "sqlite/stmt",
+    "owner": "sqlite",
+    "name": "stmt",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/stmt.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "List all prepared statements associated with the database connection.",
+    "keywords": null,
+    "symbols": [
+      "sqlite_stmt"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "stmt*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 96,
+    "fullname": "sqlite/stmtrand",
+    "owner": "sqlite",
+    "name": "stmtrand",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/stmtrand.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Generate pseudo-random non-negative integers.",
+    "keywords": null,
+    "symbols": [
+      "stmtrand"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "stmtrand*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 97,
+    "fullname": "sqlite/totype",
+    "owner": "sqlite",
+    "name": "totype",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/totype.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Convert other types to integer or real.",
+    "keywords": null,
+    "symbols": [
+      "tointeger",
+      "toreal"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "totype*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 98,
+    "fullname": "sqlite/uint",
+    "owner": "sqlite",
+    "name": "uint",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/uint.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Natural string sorting and comparison.",
+    "keywords": null,
+    "symbols": [
+      "uint"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "uint*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 99,
+    "fullname": "sqlite/unionvtab",
+    "owner": "sqlite",
+    "name": "unionvtab",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/unionvtab.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Union multiple similar tables into one.",
+    "keywords": null,
+    "symbols": [
+      "swarmvtab",
+      "unionvtab"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "unionvtab*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 100,
+    "fullname": "sqlite/urifuncs",
+    "owner": "sqlite",
+    "name": "urifuncs",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/urifuncs.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Parse SQLite database connection string.",
+    "keywords": null,
+    "symbols": [
+      "sqlite3_db_filename",
+      "sqlite3_filename_database",
+      "sqlite3_filename_journal",
+      "sqlite3_filename_wal",
+      "sqlite3_uri_boolean",
+      "sqlite3_uri_int64",
+      "sqlite3_uri_key",
+      "sqlite3_uri_parameter"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "urifuncs*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 101,
+    "fullname": "sqlite/uuid",
+    "owner": "sqlite",
+    "name": "uuid",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/uuid.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Generate a version 4 UUID.",
+    "keywords": null,
+    "symbols": [
+      "uuid",
+      "uuid_blob",
+      "uuid_str"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "uuid*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 102,
+    "fullname": "sqlite/vfsstat",
+    "owner": "sqlite",
+    "name": "vfsstat",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/vfsstat.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Track I/O operations and accumulate status counts.",
+    "keywords": null,
+    "symbols": [
+      "vfsstat"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "vfsstat*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 103,
+    "fullname": "sqlite/vtablog",
+    "owner": "sqlite",
+    "name": "vtablog",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/vtablog.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Print diagnostic information on virtual table calls.",
+    "keywords": null,
+    "symbols": [
+      "vtablog"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "vtablog*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 104,
+    "fullname": "sqlite/wholenumber",
+    "owner": "sqlite",
+    "name": "wholenumber",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/wholenumber.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Returns the whole numbers between 1 and 4294967295.",
+    "keywords": null,
+    "symbols": [
+      "wholenumber"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "wholenumber*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 105,
+    "fullname": "sqlite/zipfile",
+    "owner": "sqlite",
+    "name": "zipfile",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/zipfile.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Read and write zip files, both in memory and on disk.",
+    "keywords": null,
+    "symbols": [
+      "zipfile"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "zipfile*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 106,
+    "fullname": "sqlite/zorder",
+    "owner": "sqlite",
+    "name": "zorder",
+    "version": "3.49.1",
+    "homepage": "https://sqlite.org/src/file?name=ext/misc/zorder.c&ci=trunk",
+    "repository": "https://github.com/nalgeon/sqlite-ext",
+    "authors": [
+      "Richard Hipp"
+    ],
+    "license": "Public Domain",
+    "description": "Map multidimensional data to the single dimension using z-ordering (Morton codes).",
+    "keywords": null,
+    "symbols": [
+      "unzorder",
+      "zorder"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlite-ext/releases/download/3.49.1",
+      "pattern": "zorder*",
+      "files": {
+        "darwin-amd64": "misc-macos.zip",
+        "darwin-arm64": "misc-macos.zip",
+        "linux-amd64": "misc-linux-x86.zip",
+        "windows-amd64": "misc-win-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 107,
+    "fullname": "stackql/aws_policy_equal",
+    "owner": "stackql",
+    "name": "aws_policy_equal",
+    "version": "v1.0.4",
+    "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/aws_policy_equal.md",
+    "repository": "https://github.com/stackql/sqlite-ext-functions",
+    "authors": [
+      "Jeffrey Aven"
+    ],
+    "license": "MIT",
+    "description": "Comparing AWS IAM policy documents semantically for equivalence within SQL queries.",
+    "keywords": [
+      "aws",
+      "iam policy",
+      "comparison",
+      "equality"
+    ],
+    "symbols": [
+      "aws_policy_equal"
+    ],
+    "assets": {
+      "path": "https://github.com/stackql/sqlite-ext-functions/releases/download/v1.0.4",
+      "pattern": "aws_policy_equal*",
+      "files": {
+        "darwin-amd64": "stackql-sqlite-ext-functions-macos-universal.zip",
+        "darwin-arm64": "stackql-sqlite-ext-functions-macos-universal.zip",
+        "linux-amd64": "stackql-sqlite-ext-functions-linux-amd64.zip",
+        "windows-amd64": "stackql-sqlite-ext-functions-windows-amd64.zip"
+      }
+    }
+  },
+  {
+    "id": 108,
+    "fullname": "stackql/json_equal",
+    "owner": "stackql",
+    "name": "json_equal",
+    "version": "v1.0.4",
+    "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/json_equal.md",
+    "repository": "https://github.com/stackql/sqlite-ext-functions",
+    "authors": [
+      "Jeffrey Aven"
+    ],
+    "license": "MIT",
+    "description": "Comparing JSON strings (objects or arrays) for equivalence within SQL queries.",
+    "keywords": [
+      "json",
+      "comparison",
+      "equality"
+    ],
+    "symbols": [
+      "json_equal"
+    ],
+    "assets": {
+      "path": "https://github.com/stackql/sqlite-ext-functions/releases/download/v1.0.4",
+      "pattern": "json_equal*",
+      "files": {
+        "darwin-amd64": "stackql-sqlite-ext-functions-macos-universal.zip",
+        "darwin-arm64": "stackql-sqlite-ext-functions-macos-universal.zip",
+        "linux-amd64": "stackql-sqlite-ext-functions-linux-amd64.zip",
+        "windows-amd64": "stackql-sqlite-ext-functions-windows-amd64.zip"
+      }
+    }
+  },
+  {
+    "id": 109,
+    "fullname": "stackql/regexp",
+    "owner": "stackql",
+    "name": "regexp",
+    "version": "v1.0.4",
+    "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/regexp_fns.md",
+    "repository": "https://github.com/stackql/sqlite-ext-functions",
+    "authors": [
+      "Jeffrey Aven"
+    ],
+    "license": "MIT",
+    "description": "Working with regular expressions using the tiny-regex-c library.",
+    "keywords": [
+      "pattern matching",
+      "string manipulation",
+      "tiny-regex-c"
+    ],
+    "symbols": [
+      "regexp_like",
+      "regexp_replace",
+      "regexp_substr",
+      "regexp"
+    ],
+    "assets": {
+      "path": "https://github.com/stackql/sqlite-ext-functions/releases/download/v1.0.4",
+      "pattern": "regexp*",
+      "files": {
+        "darwin-amd64": "stackql-sqlite-ext-functions-macos-universal.zip",
+        "darwin-arm64": "stackql-sqlite-ext-functions-macos-universal.zip",
+        "linux-amd64": "stackql-sqlite-ext-functions-linux-amd64.zip",
+        "windows-amd64": "stackql-sqlite-ext-functions-windows-amd64.zip"
+      }
+    }
+  },
+  {
+    "id": 110,
+    "fullname": "stackql/split_part",
+    "owner": "stackql",
+    "name": "split_part",
+    "version": "v1.0.4",
+    "homepage": "https://github.com/stackql/sqlite-ext-functions/blob/main/docs/split_part.md",
+    "repository": "https://github.com/stackql/sqlite-ext-functions",
+    "authors": [
+      "Jeffrey Aven"
+    ],
+    "license": "MIT",
+    "description": "Splitting strings into parts using a specified separator.",
+    "keywords": [
+      "negative indexes",
+      "postgresql compatible",
+      "string manipulation",
+      "string splitting"
+    ],
+    "symbols": [
+      "split_part"
+    ],
+    "assets": {
+      "path": "https://github.com/stackql/sqlite-ext-functions/releases/download/v1.0.4",
+      "pattern": "split_part*",
+      "files": {
+        "darwin-amd64": "stackql-sqlite-ext-functions-macos-universal.zip",
+        "darwin-arm64": "stackql-sqlite-ext-functions-macos-universal.zip",
+        "linux-amd64": "stackql-sqlite-ext-functions-linux-amd64.zip",
+        "windows-amd64": "stackql-sqlite-ext-functions-windows-amd64.zip"
+      }
+    }
+  },
+  {
+    "id": 111,
+    "fullname": "vlcn-io/cr-sqlite",
+    "owner": "vlcn-io",
+    "name": "cr-sqlite",
+    "version": "v0.16.3",
+    "homepage": "",
+    "repository": "https://github.com/vlcn-io/cr-sqlite",
+    "authors": [
+      "Matt Wonlaw"
+    ],
+    "license": "MIT",
+    "description": "Multi-master replication and partition tolerance via conflict free replicated data types (CRDTs) and/or causally ordered event logs.",
+    "keywords": [
+      "crdt",
+      "crsqlite",
+      "vulcan",
+      "vlcn.io"
+    ],
+    "symbols": [
+      "crsql_alter_commit",
+      "crsql_as_crr",
+      "crsql_begin_alter",
+      "crsql_changes",
+      "crsql_finalize",
+      "crsql_sha",
+      "crsql_site_id"
+    ],
+    "assets": {
+      "path": "https://github.com/vlcn-io/cr-sqlite/releases/download/v0.16.3",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "crsqlite-darwin-x86_64.zip",
+        "darwin-arm64": "crsqlite-darwin-aarch64.zip",
+        "linux-amd64": "crsqlite-linux-x86_64.zip",
+        "linux-arm64": "crsqlite-linux-aarch64.zip",
+        "windows-amd64": "crsqlite-windows-x86_64.zip"
+      }
+    }
+  },
+  {
+    "id": 112,
+    "fullname": "voksenlia/interpolate",
+    "owner": "voksenlia",
+    "name": "interpolate",
+    "version": "",
+    "homepage": "https://github.com/nalgeon/sqlean/issues/27#issuecomment-1007971527",
+    "repository": "http://voksenlia.net/sqlite3/interpolate.c",
+    "authors": [
+      "Steinar Midtskogen"
+    ],
+    "license": "Public Domain",
+    "description": "Interpolates missing values for timestamped measurements.",
+    "keywords": null,
+    "symbols": [
+      "interpolate"
+    ],
+    "assets": {
+      "path": "https://github.com/nalgeon/sqlean/releases/download/incubator",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "interpolate.dylib",
+        "darwin-arm64": "interpolate.dylib",
+        "linux-amd64": "interpolate.so",
+        "windows-amd64": "interpolate.dll"
+      }
+    }
+  },
+  {
+    "id": 113,
+    "fullname": "x2bool/sqliteclip",
+    "owner": "x2bool",
+    "name": "sqliteclip",
+    "version": "v0.9.0",
+    "homepage": "",
+    "repository": "https://github.com/x2bool/sqliteclip",
+    "authors": [
+      "Sergey Khabibullin"
+    ],
+    "license": "MIT",
+    "description": "Working with the operating system clipboard (copy/paste functions).",
+    "keywords": [
+      "clipboard",
+      "libsqliteclip"
+    ],
+    "symbols": [
+      "clip_copy",
+      "clipboard_copy",
+      "clip_paste",
+      "clipboard_paste"
+    ],
+    "assets": {
+      "path": "https://github.com/x2bool/sqliteclip/releases/download/v0.9.0",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "libsqliteclip-macos-x64.zip",
+        "darwin-arm64": "libsqliteclip-macos-aarch64.zip",
+        "linux-386": "libsqliteclip-linux-x86.tar.gz",
+        "linux-amd64": "libsqliteclip-linux-x64.tar.gz",
+        "windows-386": "sqliteclip-windows-x86.zip",
+        "windows-amd64": "sqliteclip-windows-x64.zip"
+      }
+    }
+  },
+  {
+    "id": 114,
+    "fullname": "x2bool/xlite",
+    "owner": "x2bool",
+    "name": "xlite",
+    "version": "v0.2.1",
+    "homepage": "",
+    "repository": "https://github.com/x2bool/xlite",
+    "authors": [
+      "Sergey Khabibullin"
+    ],
+    "license": "MIT",
+    "description": "Query Excel (.xlsx, .xls) and Open Document spreadsheets (.ods).",
+    "keywords": [
+      "libxlite"
+    ],
+    "symbols": [
+      "xlite"
+    ],
+    "assets": {
+      "path": "https://github.com/x2bool/xlite/releases/download/v0.2.1",
+      "pattern": "",
+      "files": {
+        "darwin-amd64": "libxlite-macos-x64.zip",
+        "darwin-arm64": "libxlite-macos-aarch64.zip",
+        "linux-386": "libxlite-linux-x86.tar.gz",
+        "linux-amd64": "libxlite-linux-x64.tar.gz",
+        "linux-arm64": "libxlite-linux-aarch64.tar.gz",
+        "windows-386": "xlite-windows-x86.zip",
+        "windows-amd64": "xlite-windows-x64.zip"
+      }
+    }
+  }
+]
