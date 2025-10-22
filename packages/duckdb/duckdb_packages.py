@@ -51,7 +51,7 @@ def fetch_duckdb_packages():
                                     'id':count, 
                                     'fullname': repo_name,
                                     'name': ext.get('name', ''),
-                                    'version': ext.get('version', ''),
+                                    'version': str(ext.get('version', '')),
                                     'homepage': "",
                                     'repository': repository,
                                     'authors': ext.get("maintainers", ''),
