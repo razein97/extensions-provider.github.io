@@ -50,16 +50,16 @@ def fetch_duckdb_packages():
                                 ready_item.update({
                                     'id':count, 
                                     'fullname': repo_name,
-                                    'name': ext.get('name', ''),
-                                    'version': str(ext.get('version', '')),
-                                    'homepage': "",
+                                    'name': ext.get('name', None),
+                                    'version': str(ext.get('version', None)),
+                                    'homepage': None,
                                     'repository': repository,
-                                    'authors': ext.get("maintainers", ''),
-                                    'license': ext.get('license') or ext.get('licence', ''),
-                                    "description": ext.get('description', ''),
-                                    'keywords': [],
-                                    'symbols': [],
-                                    'assets':{}
+                                    'authors': ext.get("maintainers", None),
+                                    'license': ext.get('license') or ext.get('licence', None),
+                                    "description": ext.get('description', None),
+                                    'keywords': None,
+                                    'symbols': None,
+                                    'assets':None
                                     });
                         
                                 parsed_data.append(ready_item);
