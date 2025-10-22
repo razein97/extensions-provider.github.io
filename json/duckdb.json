@@ -2,6 +2,7 @@
   {
     "id": 0,
     "fullname": "query-farm/a5",
+    "owner": null,
     "name": "a5",
     "version": "2025101601",
     "homepage": null,
@@ -18,6 +19,7 @@
   {
     "id": 1,
     "fullname": "query-farm/airport",
+    "owner": null,
     "name": "airport",
     "version": "2025101201",
     "homepage": null,
@@ -34,6 +36,7 @@
   {
     "id": 2,
     "fullname": "duckdb/duckdb-extension-alias",
+    "owner": null,
     "name": "arrow",
     "version": "1.2.1",
     "homepage": null,
@@ -50,6 +53,7 @@
   {
     "id": 3,
     "fullname": "hafenkran/duckdb-bigquery",
+    "owner": null,
     "name": "bigquery",
     "version": "0.5.1",
     "homepage": null,
@@ -66,6 +70,7 @@
   {
     "id": 4,
     "fullname": "query-farm/bitfilters",
+    "owner": null,
     "name": "bitfilters",
     "version": "2025101201",
     "homepage": null,
@@ -82,6 +87,7 @@
   {
     "id": 5,
     "fullname": "luohaha/BlockDuck",
+    "owner": null,
     "name": "blockduck",
     "version": "0.8.0",
     "homepage": null,
@@ -98,6 +104,7 @@
   {
     "id": 6,
     "fullname": "dforsber/boilstream-extension",
+    "owner": null,
     "name": "boilstream",
     "version": "0.3.2",
     "homepage": null,
@@ -114,6 +121,7 @@
   {
     "id": 7,
     "fullname": "dentiny/duck-read-cache-fs",
+    "owner": null,
     "name": "cache_httpfs",
     "version": "0.9.1",
     "homepage": null,
@@ -131,6 +139,7 @@
   {
     "id": 8,
     "fullname": "duckdb/extension-template-c",
+    "owner": null,
     "name": "capi_quack",
     "version": "0.0.1",
     "homepage": null,
@@ -147,6 +156,7 @@
   {
     "id": 9,
     "fullname": "dioptre/duckdb-cassandra",
+    "owner": null,
     "name": "cassandra",
     "version": "1.0.0",
     "homepage": null,
@@ -163,6 +173,7 @@
   {
     "id": 10,
     "fullname": "taniabogatsch/duckdb-chaos",
+    "owner": null,
     "name": "chaos",
     "version": "0.0.1",
     "homepage": null,
@@ -179,6 +190,7 @@
   {
     "id": 11,
     "fullname": "quackscience/duckdb-extension-clickhouse-sql",
+    "owner": null,
     "name": "chsql",
     "version": "1.0.132",
     "homepage": null,
@@ -196,6 +208,7 @@
   {
     "id": 12,
     "fullname": "quackscience/duckdb-extension-clickhouse-native",
+    "owner": null,
     "name": "chsql_native",
     "version": "0.1.3",
     "homepage": null,
@@ -213,6 +226,7 @@
   {
     "id": 13,
     "fullname": "quackscience/duckdb-extension-cronjob",
+    "owner": null,
     "name": "cronjob",
     "version": "0.0.1",
     "homepage": null,
@@ -229,6 +243,7 @@
   {
     "id": 14,
     "fullname": "query-farm/crypto",
+    "owner": null,
     "name": "crypto",
     "version": "2025101201",
     "homepage": null,
@@ -245,6 +260,7 @@
   {
     "id": 15,
     "fullname": "dentiny/duckdb-curl-filesystem",
+    "owner": null,
     "name": "curl_httpfs",
     "version": "0.2.1",
     "homepage": null,
@@ -261,6 +277,7 @@
   {
     "id": 16,
     "fullname": "cwiq-os/cwiqduck",
+    "owner": null,
     "name": "cwiqduck",
     "version": "0.0.2",
     "homepage": null,
@@ -277,6 +294,7 @@
   {
     "id": 17,
     "fullname": "gropaul/dash",
+    "owner": null,
     "name": "dash",
     "version": "0.0.1",
     "homepage": null,
@@ -293,6 +311,7 @@
   {
     "id": 18,
     "fullname": "query-farm/datasketches",
+    "owner": null,
     "name": "datasketches",
     "version": "2025101201",
     "homepage": null,
@@ -309,6 +328,7 @@
   {
     "id": 19,
     "fullname": "tobilg/duckdb-dns",
+    "owner": null,
     "name": "dns",
     "version": "0.4.0",
     "homepage": null,
@@ -325,6 +345,7 @@
   {
     "id": 20,
     "fullname": "teaguesterling/duck_tails",
+    "owner": null,
     "name": "duck_tails",
     "version": "1.0.0",
     "homepage": null,
@@ -341,6 +362,7 @@
   {
     "id": 21,
     "fullname": "teaguesterling/duckdb_mcp",
+    "owner": null,
     "name": "duckdb_mcp",
     "version": "1.1.0",
     "homepage": null,
@@ -357,6 +379,7 @@
   {
     "id": 22,
     "fullname": "cwida/duckpgq-extension",
+    "owner": null,
     "name": "duckpgq",
     "version": "0.2.6",
     "homepage": null,
@@ -373,6 +396,7 @@
   {
     "id": 23,
     "fullname": "ahuarte47/duckdb-eeagrid",
+    "owner": null,
     "name": "eeagrid",
     "version": "1.4.0",
     "homepage": null,
@@ -389,6 +413,7 @@
   {
     "id": 24,
     "fullname": "onnimonni/duckdb-encoding",
+    "owner": null,
     "name": "encoding",
     "version": "0.1.0",
     "homepage": null,
@@ -405,6 +430,7 @@
   {
     "id": 25,
     "fullname": "query-farm/evalexpr_rhai",
+    "owner": null,
     "name": "evalexpr_rhai",
     "version": "2025101401",
     "homepage": null,
@@ -421,6 +447,7 @@
   {
     "id": 26,
     "fullname": "duckdb-faiss-ext/duckdb-faiss-ext",
+    "owner": null,
     "name": "faiss",
     "version": "0.12.0",
     "homepage": null,
@@ -438,6 +465,7 @@
   {
     "id": 27,
     "fullname": "yutannihilation/duckdb-ext-file-dialog",
+    "owner": null,
     "name": "file_dialog",
     "version": "0.0.3",
     "homepage": null,
@@ -454,6 +482,7 @@
   {
     "id": 28,
     "fullname": "lnkuiper/fivetran",
+    "owner": null,
     "name": "fivetran",
     "version": "2025101500",
     "homepage": null,
@@ -470,6 +499,7 @@
   {
     "id": 29,
     "fullname": "dais-polymtl/flock",
+    "owner": null,
     "name": "flock",
     "version": "0.5.0",
     "homepage": null,
@@ -487,6 +517,7 @@
   {
     "id": 30,
     "fullname": "query-farm/fuzzycomplete",
+    "owner": null,
     "name": "fuzzycomplete",
     "version": "2025101201",
     "homepage": null,
@@ -503,6 +534,7 @@
   {
     "id": 31,
     "fullname": "northpolesec/duckdb-gcs",
+    "owner": null,
     "name": "gcs",
     "version": "0.0.1",
     "homepage": null,
@@ -519,6 +551,7 @@
   {
     "id": 32,
     "fullname": "paleolimbot/duckdb-geography",
+    "owner": null,
     "name": "geography",
     "version": "0.1.0",
     "homepage": null,
@@ -535,6 +568,7 @@
   {
     "id": 33,
     "fullname": "babaknaimi/duckdb-geotiff",
+    "owner": null,
     "name": "geotiff",
     "version": "0.1.2",
     "homepage": null,
@@ -551,6 +585,7 @@
   {
     "id": 34,
     "fullname": "evidence-dev/duckdb_gsheets",
+    "owner": null,
     "name": "gsheets",
     "version": "0.0.7",
     "homepage": null,
@@ -568,6 +603,7 @@
   {
     "id": 35,
     "fullname": "isaacbrodsky/h3-duckdb",
+    "owner": null,
     "name": "h3",
     "version": "1.4.1",
     "homepage": null,
@@ -584,6 +620,7 @@
   {
     "id": 36,
     "fullname": "query-farm/hashfuncs",
+    "owner": null,
     "name": "hashfuncs",
     "version": "2025101201",
     "homepage": null,
@@ -600,6 +637,7 @@
   {
     "id": 37,
     "fullname": "Berrysoft/duckdb-hdf5",
+    "owner": null,
     "name": "hdf5",
     "version": "0.1.5",
     "homepage": null,
@@ -616,6 +654,7 @@
   {
     "id": 38,
     "fullname": "fhk/highs-duckdb",
+    "owner": null,
     "name": "highs",
     "version": "1.7.2",
     "homepage": null,
@@ -632,6 +671,7 @@
   {
     "id": 39,
     "fullname": "gropaul/hostFS",
+    "owner": null,
     "name": "hostfs",
     "version": "0.0.3",
     "homepage": null,
@@ -648,6 +688,7 @@
   {
     "id": 40,
     "fullname": "query-farm/httpclient",
+    "owner": null,
     "name": "http_client",
     "version": "2025100901",
     "homepage": null,
@@ -667,6 +708,7 @@
   {
     "id": 41,
     "fullname": "Query-farm/httpserver",
+    "owner": null,
     "name": "httpserver",
     "version": "0.1.9",
     "homepage": null,
@@ -687,6 +729,7 @@
   {
     "id": 42,
     "fullname": "CogitatorTech/infera",
+    "owner": null,
     "name": "infera",
     "version": "0.2.0",
     "homepage": null,
@@ -703,6 +746,7 @@
   {
     "id": 43,
     "fullname": "GalvinGao/duckdb_jwt",
+    "owner": null,
     "name": "jwt",
     "version": "0.0.1",
     "homepage": null,
@@ -719,6 +763,7 @@
   {
     "id": 44,
     "fullname": "query-farm/lindel",
+    "owner": null,
     "name": "lindel",
     "version": "2025101201",
     "homepage": null,
@@ -735,6 +780,7 @@
   {
     "id": 45,
     "fullname": "isaacbrodsky/duckdb-lua",
+    "owner": null,
     "name": "lua",
     "version": "1.4.1",
     "homepage": null,
@@ -751,6 +797,7 @@
   {
     "id": 46,
     "fullname": "carlopi/duckdb_magic",
+    "owner": null,
     "name": "magic",
     "version": "0.0.1",
     "homepage": null,
@@ -767,6 +814,7 @@
   {
     "id": 47,
     "fullname": "query-farm/marisa",
+    "owner": null,
     "name": "marisa",
     "version": "2025101201",
     "homepage": null,
@@ -783,6 +831,7 @@
   {
     "id": 48,
     "fullname": "teaguesterling/duckdb_markdown",
+    "owner": null,
     "name": "markdown",
     "version": "1.0.2",
     "homepage": null,
@@ -799,6 +848,7 @@
   {
     "id": 49,
     "fullname": "nkwork9999/miniplot",
+    "owner": null,
     "name": "miniplot",
     "version": "0.0.2",
     "homepage": null,
@@ -815,6 +865,7 @@
   {
     "id": 50,
     "fullname": "Mooncake-Labs/duckdb_mooncake",
+    "owner": null,
     "name": "mooncake",
     "version": "0.0.1",
     "homepage": null,
@@ -831,6 +882,7 @@
   {
     "id": 51,
     "fullname": "Hugoberry/duckdb-msolap-extension",
+    "owner": null,
     "name": "msolap",
     "version": "0.1.2",
     "homepage": null,
@@ -847,6 +899,7 @@
   {
     "id": 52,
     "fullname": "paleolimbot/duckdb-nanoarrow",
+    "owner": null,
     "name": "nanoarrow",
     "version": "1.4.0",
     "homepage": null,
@@ -865,6 +918,7 @@
   {
     "id": 53,
     "fullname": "Hugoberry/duckdb-nanodbc-extension",
+    "owner": null,
     "name": "nanodbc",
     "version": "0.3.3",
     "homepage": null,
@@ -881,6 +935,7 @@
   {
     "id": 54,
     "fullname": "hatamiarash7/duckdb-netquack",
+    "owner": null,
     "name": "netquack",
     "version": "1.6.0",
     "homepage": null,
@@ -897,6 +952,7 @@
   {
     "id": 55,
     "fullname": "dentiny/duckdb-filesystem-observability",
+    "owner": null,
     "name": "observefs",
     "version": "0.3.3",
     "homepage": null,
@@ -913,6 +969,7 @@
   {
     "id": 56,
     "fullname": "krokozyab/ofquack",
+    "owner": null,
     "name": "ofquack",
     "version": "0.0.1",
     "homepage": null,
@@ -929,6 +986,7 @@
   {
     "id": 57,
     "fullname": "quackscience/duckdb-extension-openprompt",
+    "owner": null,
     "name": "open_prompt",
     "version": "0.0.5",
     "homepage": null,
@@ -946,6 +1004,7 @@
   {
     "id": 58,
     "fullname": "zfarrell/duckdb_extension_parser_tools",
+    "owner": null,
     "name": "parser_tools",
     "version": "0.5.0",
     "homepage": null,
@@ -962,6 +1021,7 @@
   {
     "id": 59,
     "fullname": "Hugoberry/duckdb-pbix-extension",
+    "owner": null,
     "name": "pbix",
     "version": "0.5.1",
     "homepage": null,
@@ -978,6 +1038,7 @@
   {
     "id": 60,
     "fullname": "quackscience/duckdb-extension-pcap",
+    "owner": null,
     "name": "pcap_reader",
     "version": "0.1.3",
     "homepage": null,
@@ -996,6 +1057,7 @@
   {
     "id": 61,
     "fullname": "Alex-Monahan/pivot_table",
+    "owner": null,
     "name": "pivot_table",
     "version": "0.0.2",
     "homepage": null,
@@ -1012,6 +1074,7 @@
   {
     "id": 62,
     "fullname": "ywelsch/duckdb-prql",
+    "owner": null,
     "name": "prql",
     "version": "1.0.0",
     "homepage": null,
@@ -1028,6 +1091,7 @@
   {
     "id": 63,
     "fullname": "ywelsch/duckdb-psql",
+    "owner": null,
     "name": "psql",
     "version": "1.0.0",
     "homepage": null,
@@ -1044,6 +1108,7 @@
   {
     "id": 64,
     "fullname": "Ian-Fogelman/psyduck",
+    "owner": null,
     "name": "psyduck",
     "version": "1.0.0",
     "homepage": null,
@@ -1060,6 +1125,7 @@
   {
     "id": 65,
     "fullname": "quackscience/duckdb-extension-pyroscope",
+    "owner": null,
     "name": "pyroscope",
     "version": "0.1.3",
     "homepage": null,
@@ -1077,6 +1143,7 @@
   {
     "id": 66,
     "fullname": "duckdb/extension-template",
+    "owner": null,
     "name": "quack",
     "version": "0.0.2",
     "homepage": null,
@@ -1093,6 +1160,7 @@
   {
     "id": 67,
     "fullname": "martin-conur/quackformers",
+    "owner": null,
     "name": "quackformers",
     "version": "0.1.4",
     "homepage": null,
@@ -1109,6 +1177,7 @@
   {
     "id": 68,
     "fullname": "coginiti-dev/QuackStore",
+    "owner": null,
     "name": "quackstore",
     "version": "1.0.0",
     "homepage": null,
@@ -1127,6 +1196,7 @@
   {
     "id": 69,
     "fullname": "quackscience/duckdb-quickjs",
+    "owner": null,
     "name": "quickjs",
     "version": "0.0.1",
     "homepage": null,
@@ -1143,6 +1213,7 @@
   {
     "id": 70,
     "fullname": "query-farm/radio",
+    "owner": null,
     "name": "radio",
     "version": "2025101201",
     "homepage": null,
@@ -1159,6 +1230,7 @@
   {
     "id": 71,
     "fullname": "query-farm/rapidfuzz",
+    "owner": null,
     "name": "rapidfuzz",
     "version": "2025101201",
     "homepage": null,
@@ -1175,6 +1247,7 @@
   {
     "id": 72,
     "fullname": "mettekou/duckdb-read-stat",
+    "owner": null,
     "name": "read_stat",
     "version": "0.2.3",
     "homepage": null,
@@ -1191,6 +1264,7 @@
   {
     "id": 73,
     "fullname": "quackscience/duckdb-extension-redis",
+    "owner": null,
     "name": "redis",
     "version": "1.0.1",
     "homepage": null,
@@ -1208,6 +1282,7 @@
   {
     "id": 74,
     "fullname": "duckdb/extension-template-rs",
+    "owner": null,
     "name": "rusty_quack",
     "version": "0.0.1",
     "homepage": null,
@@ -1225,6 +1300,7 @@
   {
     "id": 75,
     "fullname": "redraiment/rusty-sheet",
+    "owner": null,
     "name": "rusty_sheet",
     "version": "0.1.0",
     "homepage": null,
@@ -1241,6 +1317,7 @@
   {
     "id": 76,
     "fullname": "pdet/Scrooge-McDuck",
+    "owner": null,
     "name": "scrooge",
     "version": "0.0.2",
     "homepage": null,
@@ -1257,6 +1334,7 @@
   {
     "id": 77,
     "fullname": "polydbms/sheetreader-duckdb",
+    "owner": null,
     "name": "sheetreader",
     "version": "0.1.0",
     "homepage": null,
@@ -1273,6 +1351,7 @@
   {
     "id": 78,
     "fullname": "query-farm/shellfs",
+    "owner": null,
     "name": "shellfs",
     "version": "2025101201",
     "homepage": null,
@@ -1289,6 +1368,7 @@
   {
     "id": 79,
     "fullname": "iqea-ai/duckdb-snowflake",
+    "owner": null,
     "name": "snowflake",
     "version": "0.1.0",
     "homepage": null,
@@ -1305,6 +1385,7 @@
   {
     "id": 80,
     "fullname": "moj-analytical-services/splink_udfs",
+    "owner": null,
     "name": "splink_udfs",
     "version": "0.0.10",
     "homepage": null,
@@ -1321,6 +1402,7 @@
   {
     "id": 81,
     "fullname": "yutannihilation/duckdb-ext-st-read-multi",
+    "owner": null,
     "name": "st_read_multi",
     "version": "0.0.3",
     "homepage": null,
@@ -1337,6 +1419,7 @@
   {
     "id": 82,
     "fullname": "query-farm/stochastic",
+    "owner": null,
     "name": "stochastic",
     "version": "2025101201",
     "homepage": null,
@@ -1353,6 +1436,7 @@
   {
     "id": 83,
     "fullname": "substrait-io/duckdb-substrait-extension",
+    "owner": null,
     "name": "substrait",
     "version": "1.2.1",
     "homepage": null,
@@ -1371,6 +1455,7 @@
   {
     "id": 84,
     "fullname": "Maxxen/duckdb_tarfs",
+    "owner": null,
     "name": "tarfs",
     "version": "1.0.0",
     "homepage": null,
@@ -1387,6 +1472,7 @@
   {
     "id": 85,
     "fullname": "query-farm/tera",
+    "owner": null,
     "name": "tera",
     "version": "2025102001",
     "homepage": null,
@@ -1403,6 +1489,7 @@
   {
     "id": 86,
     "fullname": "query-farm/textplot",
+    "owner": null,
     "name": "textplot",
     "version": "2025101201",
     "homepage": null,
@@ -1419,6 +1506,7 @@
   {
     "id": 87,
     "fullname": "martin-conur/duckdb-title-mapper",
+    "owner": null,
     "name": "title_mapper",
     "version": "1.4.1.0",
     "homepage": null,
@@ -1435,6 +1523,7 @@
   {
     "id": 88,
     "fullname": "query-farm/tributary",
+    "owner": null,
     "name": "tributary",
     "version": "2025101201",
     "homepage": null,
@@ -1451,6 +1540,7 @@
   {
     "id": 89,
     "fullname": "quackscience/duckdb-extension-tsid",
+    "owner": null,
     "name": "tsid",
     "version": "0.0.1",
     "homepage": null,
@@ -1467,6 +1557,7 @@
   {
     "id": 90,
     "fullname": "Maxxen/duckdb_ulid",
+    "owner": null,
     "name": "ulid",
     "version": "1.0.0",
     "homepage": null,
@@ -1483,6 +1574,7 @@
   {
     "id": 91,
     "fullname": "vortex-data/duckdb-vortex",
+    "owner": null,
     "name": "vortex",
     "version": "0.53.0",
     "homepage": null,
@@ -1501,6 +1593,7 @@
   {
     "id": 92,
     "fullname": "teaguesterling/duckdb_webbed",
+    "owner": null,
     "name": "webbed",
     "version": "1.1.1",
     "homepage": null,
@@ -1517,6 +1610,7 @@
   {
     "id": 93,
     "fullname": "quackscience/duckdb-extension-webmacro",
+    "owner": null,
     "name": "webmacro",
     "version": "0.0.2",
     "homepage": null,
@@ -1533,6 +1627,7 @@
   {
     "id": 94,
     "fullname": "hyehudai/wireduck",
+    "owner": null,
     "name": "wireduck",
     "version": "0.0.2",
     "homepage": null,
@@ -1549,6 +1644,7 @@
   {
     "id": 95,
     "fullname": "teaguesterling/duckdb_yaml",
+    "owner": null,
     "name": "yaml",
     "version": "1.2.0",
     "homepage": null,
@@ -1565,6 +1661,7 @@
   {
     "id": 96,
     "fullname": "isaacbrodsky/duckdb-zipfs",
+    "owner": null,
     "name": "zipfs",
     "version": "1.4.1",
     "homepage": null,
