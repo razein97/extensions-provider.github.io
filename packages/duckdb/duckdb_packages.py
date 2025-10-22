@@ -50,6 +50,7 @@ def fetch_duckdb_packages():
                                 ready_item.update({
                                     'id':count, 
                                     'fullname': repo_name,
+                                    'owner': None,
                                     'name': ext.get('name', None),
                                     'version': str(ext.get('version', None)),
                                     'homepage': None,
