@@ -3,7 +3,7 @@
     "id": 0,
     "fullname": "query-farm/a5",
     "name": "a5",
-    "version": 2025101601,
+    "version": "2025101601",
     "homepage": "",
     "repository": "https://github.com/query-farm/a5",
     "authors": [
@@ -455,7 +455,7 @@
     "id": 28,
     "fullname": "lnkuiper/fivetran",
     "name": "fivetran",
-    "version": 2025101500,
+    "version": "2025101500",
     "homepage": "",
     "repository": "https://github.com/lnkuiper/fivetran",
     "authors": [
@@ -649,7 +649,7 @@
     "id": 40,
     "fullname": "query-farm/httpclient",
     "name": "http_client",
-    "version": 2025100901,
+    "version": "2025100901",
     "homepage": "",
     "repository": "https://github.com/query-farm/httpclient",
     "authors": [
@@ -1388,7 +1388,7 @@
     "id": 85,
     "fullname": "query-farm/tera",
     "name": "tera",
-    "version": 2025102001,
+    "version": "2025102001",
     "homepage": "",
     "repository": "https://github.com/query-farm/tera",
     "authors": [
