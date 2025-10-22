@@ -11,7 +11,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Hierarchical pentagonial indexing for geospatial data that is equal-area and millimeter accurate.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -27,7 +27,7 @@
     ],
     "license": "MIT",
     "description": "The Airport extension brings Arrow Flight support to DuckDB, enabling DuckDB to query, modify, and store data from Arrow Flight servers.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -43,7 +43,7 @@
     ],
     "license": "MIT",
     "description": "This extension is an alias to the nanoarrow extension. Allows the consumption and production of the Apache Arrow interprocess communication (IPC) format, both from files and directly from stream buffers.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -59,7 +59,7 @@
     ],
     "license": "MIT",
     "description": "Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -75,7 +75,7 @@
     ],
     "license": "MIT",
     "description": "Provides high-performance, space-efficient probabilistic data structures—including quotient, XOR, and binary fuse filters—for fast approximate set membership testing with no false negatives and configurable false positive rates.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -91,7 +91,7 @@
     ],
     "license": "MIT",
     "description": "Live SQL Queries on Blockchain",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -107,7 +107,7 @@
     ],
     "license": "MIT",
     "description": "Mounts boilstream server as a secure Remote Secrets Storage",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -124,7 +124,7 @@
     ],
     "license": "MIT",
     "description": "Read cached filesystem for httpfs",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -140,7 +140,7 @@
     ],
     "license": "MIT",
     "description": "Provides a hello world example demo from the C/C++ C API template",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -156,7 +156,7 @@
     ],
     "license": "MIT",
     "description": "Connect to Apache Cassandra, ScyllaDB, and DataStax Astra databases directly from DuckDB. Query Cassandra tables using SQL with support for all major Cassandra data types, SSL/TLS connections, and cloud deployments.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -172,7 +172,7 @@
     ],
     "license": "MIT",
     "description": "Creates chaos! ⋆✴︎˚｡⋆ Chaos allows you to throw any type of DuckDB exception, or to raise a SIGSEGV, SIGABRT, or SIGBUS signal.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -189,7 +189,7 @@
     ],
     "license": "MIT",
     "description": "ClickHouse SQL Macros for DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -206,7 +206,7 @@
     ],
     "license": "MIT",
     "description": "ClickHouse Native Client & File Reader for chsql",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -222,7 +222,7 @@
     ],
     "license": "MIT",
     "description": "DuckDB HTTP Cronjob Extension",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -238,7 +238,7 @@
     ],
     "license": "MIT",
     "description": "Cryptographic hash functions and HMAC",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -254,7 +254,7 @@
     ],
     "license": "MIT",
     "description": "httpfs with connection pool, HTTP/2 and async IO.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -270,7 +270,7 @@
     ],
     "license": "MIT",
     "description": "DuckDB filesystem extension for CWIQ FS",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -286,7 +286,7 @@
     ],
     "license": "MIT",
     "description": "GUI to create interactive plots and dashboards *within* DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -302,7 +302,7 @@
     ],
     "license": "MIT",
     "description": "By utilizing the Apache DataSketches library this extension can efficiently compute approximate distinct item counts and estimations of quantiles, while allowing the sketches to be serialized.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -318,7 +318,7 @@
     ],
     "license": "MIT",
     "description": "The DNS Extension enables DNS lookups and reverse DNS lookups from within DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -334,7 +334,7 @@
     ],
     "license": "MIT",
     "description": "Smart Development Intelligence for DuckDB - Git-aware data analysis capabilities that allow querying git history, accessing files at any revision, and performing version-aware data analysis with SQL.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -350,7 +350,7 @@
     ],
     "license": "MIT",
     "description": "Model Context Protocol (MCP) extension for DuckDB that enables seamless integration between SQL databases and MCP servers. Provides both client capabilities for accessing remote MCP resources via SQL and server capabilities for exposing database content as MCP resources.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -366,7 +366,7 @@
     ],
     "license": "MIT",
     "description": "Extension that adds support for SQL/PGQ and graph algorithms",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -382,7 +382,7 @@
     ],
     "license": "MIT",
     "description": "Extension that adds support for working with the EEA Reference Grid System.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -398,7 +398,7 @@
     ],
     "license": "MIT",
     "description": "The Encoding Extension enables text encoding detection and UTF-8 conversion from within DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -414,7 +414,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Evaluate the Rhai scripting language in DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -431,7 +431,7 @@
     ],
     "license": "MIT",
     "description": "Provides access to faiss indices from DuckDB.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -447,7 +447,7 @@
     ],
     "license": "MIT",
     "description": "Choose a file via native file dialog",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -463,7 +463,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Fivetran community extension.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -480,7 +480,7 @@
     ],
     "license": "MIT",
     "description": "LLM & RAG extension to combine analytics and semantic analysis",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -496,7 +496,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Fuzzy matching based autocompletion",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -512,7 +512,7 @@
     ],
     "license": "MIT",
     "description": "DuckDB GCS Extension",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -528,7 +528,7 @@
     ],
     "license": "MIT",
     "description": "Global spatial data processing on the sphere",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -544,7 +544,7 @@
     ],
     "license": "MIT",
     "description": "Read GeoTIFF rasters as (cell_id, value) via GDAL",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -561,7 +561,7 @@
     ],
     "license": "MIT",
     "description": "Read and write Google Sheets using SQL",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -577,7 +577,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Hierarchical hexagonal indexing for geospatial data",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -593,7 +593,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Non-cryptographic hash functions, xxHash, rapidhash and Murmurhash3",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -609,7 +609,7 @@
     ],
     "license": "MIT",
     "description": "Read HDF5 files from DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -625,7 +625,7 @@
     ],
     "license": "MIT",
     "description": "HiGHS - High Performance Optimization Software",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -641,7 +641,7 @@
     ],
     "license": "MIT",
     "description": "Navigate and explore the filesystem using SQL",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -660,7 +660,7 @@
     ],
     "license": "MIT",
     "description": "DuckDB HTTP Client Extension",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -680,7 +680,7 @@
     ],
     "license": "MIT",
     "description": "DuckDB HTTP API Server Extension",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -696,7 +696,7 @@
     ],
     "license": "MIT OR Apache-2.0",
     "description": "A DuckDB extension for in-database inference",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -712,7 +712,7 @@
     ],
     "license": "MIT",
     "description": "Decode and work with JWT (JSON Web Token) in SQL queries",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -728,7 +728,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Linearization/Delinearization, Z-Order, Hilbert and Morton Curves",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -744,7 +744,7 @@
     ],
     "license": "MIT",
     "description": "Evaluate Lua scripts within queries",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -760,7 +760,7 @@
     ],
     "license": "MIT",
     "description": "libmagic/file utilities ported to DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -776,7 +776,7 @@
     ],
     "license": "MIT",
     "description": "Adds MARISA (Matching Algorithm with Recursively Implemented StorAge) trie functionality for DuckDB. MARISA is a static and space-efficient trie data structure that enables fast string lookups, prefix searches, and predictive text operations.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -792,7 +792,7 @@
     ],
     "license": "MIT",
     "description": "Read and analyze Markdown files with comprehensive content extraction and document processing capabilities",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -808,7 +808,7 @@
     ],
     "license": "MIT",
     "description": "Replace pandas + matplotlib with just DuckDB - instant data visualization from SQL",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -824,7 +824,7 @@
     ],
     "license": "MIT",
     "description": "Read Iceberg tables written by moonlink in real time",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -840,7 +840,7 @@
     ],
     "license": "MIT",
     "description": "Extension that allows DuckDB to connect to Microsoft SQL Server Analysis Services (SSAS) and other OLAP data sources using the MSOLAP provider",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -858,7 +858,7 @@
     ],
     "license": "MIT",
     "description": "Allows the consumption and production of the Apache Arrow interprocess communication (IPC) format, both from files and directly from stream buffers.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -874,7 +874,7 @@
     ],
     "license": "MIT",
     "description": "Connect to any ODBC-compatible database and query data directly from DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -890,7 +890,7 @@
     ],
     "license": "MIT",
     "description": "DuckDB extension for parsing, extracting, and analyzing domains, URIs, and paths with ease.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -906,7 +906,7 @@
     ],
     "license": "MIT",
     "description": "Provides IO observability to filesystem",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -922,7 +922,7 @@
     ],
     "license": "MIT",
     "description": "The Ofquack extension provides seamless integration between DuckDB and Oracle Fusion via WSDL-based SOAP calls.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -939,7 +939,7 @@
     ],
     "license": "MIT",
     "description": "Interact with LLMs with a simple DuckDB Extension",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -955,7 +955,7 @@
     ],
     "license": "MIT",
     "description": "Exposes functions for parsing referenced tables and usage context from SQL queries using DuckDB's native parser.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -971,7 +971,7 @@
     ],
     "license": "MIT",
     "description": "Extension that allows parsing the data model embedded in PowerBI (pbix) files",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -989,7 +989,7 @@
     ],
     "license": "MIT",
     "description": "Read PCAP files from DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1005,7 +1005,7 @@
     ],
     "license": "MIT",
     "description": "Provides a spreadsheet-style pivot_table function",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1021,7 +1021,7 @@
     ],
     "license": "MIT",
     "description": "Support for PRQL, the Pipelined Relational Query Language",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1037,7 +1037,7 @@
     ],
     "license": "MIT",
     "description": "Support for PSQL, a piped SQL dialect for DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1053,7 +1053,7 @@
     ],
     "license": "MIT",
     "description": "Pokemon data native in DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1070,7 +1070,7 @@
     ],
     "license": "MIT",
     "description": "DuckDB Pyroscope Extension for Continuous Profiling",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1086,7 +1086,7 @@
     ],
     "license": "MIT",
     "description": "Provides a hello world example demo",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1102,7 +1102,7 @@
     ],
     "license": "MIT",
     "description": "Bert-based embedding extension.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1120,7 +1120,7 @@
     ],
     "license": "MIT",
     "description": "QuackStore - Smart Block-Based Caching for Remote Files. Speed up repeated queries on remote data with intelligent block-level caching.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1136,7 +1136,7 @@
     ],
     "license": "MIT",
     "description": "DuckDB QuickJS Runtime Extension",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1152,7 +1152,7 @@
     ],
     "license": "MIT",
     "description": "Allow interaction with event buses like Websocket and Redis publish/subscribe servers.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1168,7 +1168,7 @@
     ],
     "license": "MIT",
     "description": "Provides adds high-performance fuzzy string matching functions, powered by the RapidFuzz C++ library.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1184,7 +1184,7 @@
     ],
     "license": "MIT",
     "description": "Read data sets from SAS, Stata, and SPSS with ReadStat",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1201,7 +1201,7 @@
     ],
     "license": "MIT",
     "description": "Redis compatible Client for DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1218,7 +1218,7 @@
     ],
     "license": "MIT",
     "description": "Provides a hello world example demo from the Rust-based extension template",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1234,7 +1234,7 @@
     ],
     "license": "MIT",
     "description": "An Excel/OpenDocument Spreadsheets file reader for DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1250,7 +1250,7 @@
     ],
     "license": "MIT",
     "description": "Provides functionality for financial data-analysis, including data scanners for the Ethereum Blockchain and Yahoo Finance",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1266,7 +1266,7 @@
     ],
     "license": "MIT",
     "description": "Fast XLSX file importer",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1282,7 +1282,7 @@
     ],
     "license": "MIT",
     "description": "Allow shell commands to be used for input and output",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1298,7 +1298,7 @@
     ],
     "license": "MIT",
     "description": "Integrates DuckDB with Snowflake, allowing direct querying and management of Snowflake databases using Arrow ADBC drivers",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1314,7 +1314,7 @@
     ],
     "license": "MIT",
     "description": "Phonetic, text normalization and address matching functions for record linkage.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1330,7 +1330,7 @@
     ],
     "license": "MIT",
     "description": "Read multiple geospatial files",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1346,7 +1346,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Add comprehensive statistical distribution functions to DuckDB, enabling advanced statistical analysis, probability calculations, and random sampling directly within SQL queries.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1364,7 +1364,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Allows conversion execution of Substrait query plans",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1380,7 +1380,7 @@
     ],
     "license": "MIT",
     "description": "glob, open and read files within `.tar` archives",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1396,7 +1396,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Adds templating to DuckDB, enabling dynamic generation of text, HTML, and reports directly within SQL queries using the Tera engine.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1412,7 +1412,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Enables text-based data visualization directly in SQL queries, including ASCII/Unicode bar charts, density plots, and sparklines for lightweight analytics and dashboards.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1428,7 +1428,7 @@
     ],
     "license": "MIT",
     "description": "Efficiently standardizes scraped job titles to Bureau of Labor Statistics (BLS) titles using a high-performance TF-IDF algorithm.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1444,7 +1444,7 @@
     ],
     "license": "MIT",
     "description": "Enable DuckDB to interact with Apache Kafka",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1460,7 +1460,7 @@
     ],
     "license": "MIT",
     "description": "DuckDB Time-Sortable ID generator",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1476,7 +1476,7 @@
     ],
     "license": "MIT",
     "description": "ULID data type for DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1494,7 +1494,7 @@
     ],
     "license": "Apache-2.0",
     "description": "Provides write and scan functions for Vortex files",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1510,7 +1510,7 @@
     ],
     "license": "MIT",
     "description": "Comprehensive processing extension for web markup languages (XML and HTML) that enables SQL-native analysis of structured documents with intelligent schema inference, XPath-based data extraction, and powerful HTML table parsing capabilities.",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1526,7 +1526,7 @@
     ],
     "license": "MIT",
     "description": "Load DuckDB Macros from the web",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1542,7 +1542,7 @@
     ],
     "license": "MIT",
     "description": "Read and dissect PCAP files from DuckDB",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1558,7 +1558,7 @@
     ],
     "license": "MIT",
     "description": "Read YAML files into DuckDB with native YAML type support, comprehensive extraction functions, and seamless JSON interoperability",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   },
@@ -1574,7 +1574,7 @@
     ],
     "license": "MIT",
     "description": "Read files within zip archives",
-    "keywords": "",
+    "keywords": [],
     "symbols": [],
     "assets": {}
   }
