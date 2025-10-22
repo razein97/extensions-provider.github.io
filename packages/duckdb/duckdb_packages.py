@@ -57,7 +57,7 @@ def fetch_duckdb_packages():
                                     'authors': ext.get("maintainers", ''),
                                     'license': ext.get('license') or ext.get('licence', ''),
                                     "description": ext.get('description', ''),
-                                    'keywords': '',
+                                    'keywords': [],
                                     'symbols': [],
                                     'assets':{}
                                     });
